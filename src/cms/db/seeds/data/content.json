@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T18:41:52.530Z",
+  "generatedAt": "2026-09-25T18:54:58.795Z",
   "documents": [
     {
       "id": 1,
@@ -356,7 +356,7 @@
       "type": "category",
       "slug": "sample-category",
       "locale": "el",
-      "status": "published",
+      "status": "draft",
       "publishedAt": "2026-09-25T16:20:04.000Z",
       "scheduledFor": null,
       "modifiedAt": null,
@@ -380,7 +380,7 @@
       "type": "product",
       "slug": "sample-product",
       "locale": "el",
-      "status": "published",
+      "status": "draft",
       "publishedAt": "2026-09-25T16:20:04.000Z",
       "scheduledFor": null,
       "modifiedAt": null,
@@ -411,7 +411,7 @@
       "type": "product",
       "slug": "sample-product",
       "locale": "en",
-      "status": "published",
+      "status": "draft",
       "publishedAt": "2026-09-25T16:20:04.000Z",
       "scheduledFor": null,
       "modifiedAt": null,
@@ -442,7 +442,7 @@
       "type": "booking_category",
       "slug": "sample",
       "locale": "el",
-      "status": "published",
+      "status": "draft",
       "publishedAt": "2026-09-25T16:20:04.000Z",
       "scheduledFor": null,
       "modifiedAt": null,
@@ -466,7 +466,7 @@
       "type": "vessel_type",
       "slug": "sample",
       "locale": "el",
-      "status": "published",
+      "status": "draft",
       "publishedAt": "2026-09-25T16:20:04.000Z",
       "scheduledFor": null,
       "modifiedAt": null,
@@ -490,7 +490,7 @@
       "type": "departure_location",
       "slug": "sample",
       "locale": "el",
-      "status": "published",
+      "status": "draft",
       "publishedAt": "2026-09-25T16:20:04.000Z",
       "scheduledFor": null,
       "modifiedAt": null,
@@ -514,7 +514,7 @@
       "type": "booking",
       "slug": "sample-experience",
       "locale": "el",
-      "status": "published",
+      "status": "draft",
       "publishedAt": "2026-09-25T16:20:04.000Z",
       "scheduledFor": null,
       "modifiedAt": null,
@@ -544,7 +544,7 @@
       "type": "booking",
       "slug": "sample-experience",
       "locale": "en",
-      "status": "published",
+      "status": "draft",
       "publishedAt": "2026-09-25T16:20:04.000Z",
       "scheduledFor": null,
       "modifiedAt": null,
@@ -574,7 +574,7 @@
       "type": "author",
       "slug": "sample-author",
       "locale": "el",
-      "status": "published",
+      "status": "draft",
       "publishedAt": "2026-09-25T16:20:04.000Z",
       "scheduledFor": null,
       "modifiedAt": null,
@@ -611,7 +611,7 @@
       "type": "author",
       "slug": "sample-author",
       "locale": "en",
-      "status": "published",
+      "status": "draft",
       "publishedAt": "2026-09-25T16:20:04.000Z",
       "scheduledFor": null,
       "modifiedAt": null,
@@ -676,7 +676,7 @@
       "type": "article",
       "slug": "hello-world",
       "locale": "el",
-      "status": "published",
+      "status": "draft",
       "publishedAt": "2026-09-25T16:20:04.000Z",
       "scheduledFor": null,
       "modifiedAt": null,
@@ -716,7 +716,7 @@
       "type": "article",
       "slug": "hello-world",
       "locale": "en",
-      "status": "published",
+      "status": "draft",
       "publishedAt": "2026-09-25T16:20:04.000Z",
       "scheduledFor": null,
       "modifiedAt": null,
@@ -784,7 +784,7 @@
       "type": "answer",
       "slug": "sample-question",
       "locale": "el",
-      "status": "published",
+      "status": "draft",
       "publishedAt": "2026-09-25T16:20:04.000Z",
       "scheduledFor": null,
       "modifiedAt": null,
@@ -823,7 +823,7 @@
       "type": "answer",
       "slug": "sample-question",
       "locale": "en",
-      "status": "published",
+      "status": "draft",
       "publishedAt": "2026-09-25T16:20:04.000Z",
       "scheduledFor": null,
       "modifiedAt": null,
@@ -890,7 +890,7 @@
       "type": "scenario",
       "slug": "sample-case-study",
       "locale": "el",
-      "status": "published",
+      "status": "draft",
       "publishedAt": "2026-09-25T16:20:04.000Z",
       "scheduledFor": null,
       "modifiedAt": null,
@@ -930,7 +930,7 @@
       "type": "scenario",
       "slug": "sample-case-study",
       "locale": "en",
-      "status": "published",
+      "status": "draft",
       "publishedAt": "2026-09-25T16:20:04.000Z",
       "scheduledFor": null,
       "modifiedAt": null,
@@ -962,6 +962,5622 @@
         "industry": "Industry",
         "categories": [
           27
+        ]
+      }
+    },
+    {
+      "id": 30,
+      "type": "category",
+      "slug": "ceramics",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "85b7d7e2-9f99-4073-a11c-22d07fcc4b9e",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/shop/category/ceramics",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "title": {
+          "el": "Κεραμικά",
+          "en": "Ceramics"
+        }
+      }
+    },
+    {
+      "id": 31,
+      "type": "category",
+      "slug": "pantry",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "3acfc1f0-ad85-491b-987a-6138afb7c9bb",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/shop/category/pantry",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "title": {
+          "el": "Παντοπωλείο",
+          "en": "Pantry"
+        }
+      }
+    },
+    {
+      "id": 32,
+      "type": "category",
+      "slug": "clothing",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "5867c429-f64d-4c51-9b4c-a1fd8ca8a973",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/shop/category/clothing",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "title": {
+          "el": "Ρούχα",
+          "en": "Clothing"
+        }
+      }
+    },
+    {
+      "id": 33,
+      "type": "category",
+      "slug": "home",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "393d03d6-01e4-4079-972c-7bda84fe3b9d",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/shop/category/home",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "title": {
+          "el": "Σπίτι",
+          "en": "Home"
+        }
+      }
+    },
+    {
+      "id": 34,
+      "type": "product",
+      "slug": "aegean-serving-bowl",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "3ed4489e-d28a-404e-9b71-f66373b93f0b",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/shop/aegean-serving-bowl",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "sku": "CER-BOWL-01",
+        "brand": "Demo Site",
+        "price": 48,
+        "specs": [
+          {
+            "label": "Υλικό",
+            "value": "Stoneware"
+          },
+          {
+            "label": "Διάμετρος",
+            "value": "28 cm"
+          }
+        ],
+        "stock": 14,
+        "title": "Μπολ σερβιρίσματος Αιγαίο",
+        "badges": [
+          "bestseller"
+        ],
+        "weight": 1.2,
+        "featured": true,
+        "subtitle": "Χειροποίητο, σμάλτο σε μπλε του Αιγαίου",
+        "condition": "new",
+        "categories": [
+          30
+        ],
+        "visibility": "visible",
+        "weightUnit": "kg",
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Γυρισμένο στον τροχό σε εργαστήριο της Σίφνου.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Κατάλληλο για πλυντήριο πιάτων. Κάθε κομμάτι είναι μοναδικό.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "productType": "standard",
+        "availability": "in-stock",
+        "dimensionUnit": "cm"
+      }
+    },
+    {
+      "id": 35,
+      "type": "product",
+      "slug": "aegean-serving-bowl",
+      "locale": "en",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "3ed4489e-d28a-404e-9b71-f66373b93f0b",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/en/shop/aegean-serving-bowl",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "sku": "CER-BOWL-01",
+        "brand": "Demo Site",
+        "price": 48,
+        "specs": [
+          {
+            "label": "Material",
+            "value": "Stoneware"
+          },
+          {
+            "label": "Diameter",
+            "value": "28 cm"
+          }
+        ],
+        "stock": 14,
+        "title": "Aegean serving bowl",
+        "badges": [
+          "bestseller"
+        ],
+        "weight": 1.2,
+        "featured": true,
+        "subtitle": "Hand-thrown, glazed in Aegean blue",
+        "condition": "new",
+        "categories": [
+          30
+        ],
+        "visibility": "visible",
+        "weightUnit": "kg",
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Thrown on the wheel in a Sifnos workshop.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Dishwasher safe. Every piece is one of a kind.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "productType": "standard",
+        "availability": "in-stock",
+        "dimensionUnit": "cm"
+      }
+    },
+    {
+      "id": 36,
+      "type": "product",
+      "slug": "cycladic-mug-set",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "860e2b18-fb3a-43f6-ad68-dfcf9294e578",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/shop/cycladic-mug-set",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "sku": "CER-MUG-SET4",
+        "brand": "Demo Site",
+        "price": 56,
+        "stock": 20,
+        "title": "Σετ 4 κούπες Κυκλάδες",
+        "weight": 1.6,
+        "featured": false,
+        "subtitle": "Τέσσερις αποχρώσεις του νησιού",
+        "condition": "new",
+        "categories": [
+          30
+        ],
+        "visibility": "visible",
+        "weightUnit": "kg",
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Τέσσερις κούπες 300 ml σε λευκό, άμμο, μπλε και ώχρα.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Συσκευασμένες σε κουτί δώρου.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "productType": "standard",
+        "availability": "in-stock",
+        "dimensionUnit": "cm",
+        "compareAtPrice": 68
+      }
+    },
+    {
+      "id": 37,
+      "type": "product",
+      "slug": "cycladic-mug-set",
+      "locale": "en",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "860e2b18-fb3a-43f6-ad68-dfcf9294e578",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/en/shop/cycladic-mug-set",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "sku": "CER-MUG-SET4",
+        "brand": "Demo Site",
+        "price": 56,
+        "stock": 20,
+        "title": "Cycladic mug set of 4",
+        "weight": 1.6,
+        "featured": false,
+        "subtitle": "Four shades of the island",
+        "condition": "new",
+        "categories": [
+          30
+        ],
+        "visibility": "visible",
+        "weightUnit": "kg",
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Four 300 ml mugs in white, sand, blue and ochre.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Packed in a gift box.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "productType": "standard",
+        "availability": "in-stock",
+        "dimensionUnit": "cm",
+        "compareAtPrice": 68
+      }
+    },
+    {
+      "id": 38,
+      "type": "product",
+      "slug": "terracotta-planter",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "9f35e14e-1ad3-49b8-b619-176940980b76",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/shop/terracotta-planter",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "sku": "CER-PLANT-M",
+        "brand": "Demo Site",
+        "price": 22,
+        "stock": 30,
+        "title": "Γλάστρα τερακότα",
+        "weight": 2.1,
+        "featured": false,
+        "subtitle": "Άβαφη, με πιατάκι",
+        "condition": "new",
+        "categories": [
+          30
+        ],
+        "visibility": "visible",
+        "weightUnit": "kg",
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Κλασική γλάστρα από κόκκινο πηλό της Κρήτης.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Αναπνέει, κρατά τις ρίζες δροσερές.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "productType": "standard",
+        "availability": "in-stock",
+        "dimensionUnit": "cm"
+      }
+    },
+    {
+      "id": 39,
+      "type": "product",
+      "slug": "terracotta-planter",
+      "locale": "en",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "9f35e14e-1ad3-49b8-b619-176940980b76",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/en/shop/terracotta-planter",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "sku": "CER-PLANT-M",
+        "brand": "Demo Site",
+        "price": 22,
+        "stock": 30,
+        "title": "Terracotta planter",
+        "weight": 2.1,
+        "featured": false,
+        "subtitle": "Unglazed, with saucer",
+        "condition": "new",
+        "categories": [
+          30
+        ],
+        "visibility": "visible",
+        "weightUnit": "kg",
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "A classic planter in red Cretan clay.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Breathes, keeping roots cool.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "productType": "standard",
+        "availability": "in-stock",
+        "dimensionUnit": "cm"
+      }
+    },
+    {
+      "id": 40,
+      "type": "product",
+      "slug": "extra-virgin-olive-oil",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "88f0fa1e-5a53-412e-b175-21ecce0c301b",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/shop/extra-virgin-olive-oil",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "sku": "PAN-OIL-750",
+        "brand": "Demo Site",
+        "price": 16.5,
+        "stock": 80,
+        "title": "Εξαιρετικό παρθένο ελαιόλαδο 750 ml",
+        "badges": [
+          "bestseller"
+        ],
+        "weight": 1.3,
+        "featured": true,
+        "subtitle": "Κορωνέικη, πρώιμη συγκομιδή",
+        "condition": "new",
+        "categories": [
+          31
+        ],
+        "visibility": "visible",
+        "weightUnit": "kg",
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Ψυχρής έκθλιψης από οικογενειακό ελαιώνα στη Μεσσηνία.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Οξύτητα κάτω από 0,3%.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "productType": "standard",
+        "availability": "in-stock",
+        "dimensionUnit": "cm"
+      }
+    },
+    {
+      "id": 41,
+      "type": "product",
+      "slug": "extra-virgin-olive-oil",
+      "locale": "en",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "88f0fa1e-5a53-412e-b175-21ecce0c301b",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/en/shop/extra-virgin-olive-oil",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "sku": "PAN-OIL-750",
+        "brand": "Demo Site",
+        "price": 16.5,
+        "stock": 80,
+        "title": "Extra virgin olive oil 750 ml",
+        "badges": [
+          "bestseller"
+        ],
+        "weight": 1.3,
+        "featured": true,
+        "subtitle": "Koroneiki, early harvest",
+        "condition": "new",
+        "categories": [
+          31
+        ],
+        "visibility": "visible",
+        "weightUnit": "kg",
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Cold-pressed from a family grove in Messinia.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Acidity below 0.3%.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "productType": "standard",
+        "availability": "in-stock",
+        "dimensionUnit": "cm"
+      }
+    },
+    {
+      "id": 42,
+      "type": "product",
+      "slug": "thyme-honey",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "fe001f9b-6c1e-4db9-ac6f-4e7a394eadc6",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/shop/thyme-honey",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "sku": "PAN-HONEY-450",
+        "brand": "Demo Site",
+        "price": 14,
+        "stock": 45,
+        "title": "Θυμαρίσιο μέλι 450 g",
+        "badges": [
+          "new"
+        ],
+        "weight": 0.6,
+        "featured": false,
+        "subtitle": "Από τα βουνά της Νάξου",
+        "condition": "new",
+        "categories": [
+          31
+        ],
+        "visibility": "visible",
+        "weightUnit": "kg",
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Ωμό, αφιλτράριστο μέλι θυμαριού.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Κρυσταλλώνει φυσικά — ζεστάνετε ελαφρά σε μπεν μαρί.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "productType": "standard",
+        "availability": "in-stock",
+        "dimensionUnit": "cm"
+      }
+    },
+    {
+      "id": 43,
+      "type": "product",
+      "slug": "thyme-honey",
+      "locale": "en",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "fe001f9b-6c1e-4db9-ac6f-4e7a394eadc6",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/en/shop/thyme-honey",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "sku": "PAN-HONEY-450",
+        "brand": "Demo Site",
+        "price": 14,
+        "stock": 45,
+        "title": "Thyme honey 450 g",
+        "badges": [
+          "new"
+        ],
+        "weight": 0.6,
+        "featured": false,
+        "subtitle": "From the hills of Naxos",
+        "condition": "new",
+        "categories": [
+          31
+        ],
+        "visibility": "visible",
+        "weightUnit": "kg",
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Raw, unfiltered thyme honey.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Crystallises naturally — warm gently in a water bath.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "productType": "standard",
+        "availability": "in-stock",
+        "dimensionUnit": "cm"
+      }
+    },
+    {
+      "id": 44,
+      "type": "product",
+      "slug": "mountain-tea-bundle",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "ece4f231-59a4-498f-a4d4-4a73f9afb2b3",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/shop/mountain-tea-bundle",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "sku": "PAN-TEA-01",
+        "brand": "Demo Site",
+        "price": 6.5,
+        "stock": 0,
+        "title": "Τσάι του βουνού, δεμάτι",
+        "weight": 0.1,
+        "featured": false,
+        "subtitle": "Sideritis, λιαστό",
+        "condition": "new",
+        "categories": [
+          31
+        ],
+        "visibility": "visible",
+        "weightUnit": "kg",
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Μαζεμένο με το χέρι στον Ταΰγετο.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Βράστε 5 λεπτά, σερβίρετε με μέλι.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "productType": "standard",
+        "availability": "out-of-stock",
+        "dimensionUnit": "cm"
+      }
+    },
+    {
+      "id": 45,
+      "type": "product",
+      "slug": "mountain-tea-bundle",
+      "locale": "en",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "ece4f231-59a4-498f-a4d4-4a73f9afb2b3",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/en/shop/mountain-tea-bundle",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "sku": "PAN-TEA-01",
+        "brand": "Demo Site",
+        "price": 6.5,
+        "stock": 0,
+        "title": "Mountain tea bundle",
+        "weight": 0.1,
+        "featured": false,
+        "subtitle": "Sideritis, sun-dried",
+        "condition": "new",
+        "categories": [
+          31
+        ],
+        "visibility": "visible",
+        "weightUnit": "kg",
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Hand-picked on Mount Taygetos.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Simmer for 5 minutes, serve with honey.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "productType": "standard",
+        "availability": "out-of-stock",
+        "dimensionUnit": "cm"
+      }
+    },
+    {
+      "id": 46,
+      "type": "product",
+      "slug": "island-tee",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "5e72787c-04d6-48e6-9016-b719fe7b611e",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/shop/island-tee",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "sku": "TEE",
+        "brand": "Demo Site",
+        "price": 29,
+        "title": "T-shirt Island",
+        "badges": [
+          "new"
+        ],
+        "weight": 0.25,
+        "featured": true,
+        "subtitle": "Οργανικό βαμβάκι, δύο χρώματα",
+        "condition": "new",
+        "attributes": [
+          {
+            "id": "colour",
+            "name": {
+              "el": "Χρώμα",
+              "en": "Colour"
+            },
+            "values": [
+              {
+                "id": "white",
+                "color": "#f5f3ee",
+                "label": {
+                  "el": "Λευκό",
+                  "en": "White"
+                }
+              },
+              {
+                "id": "blue",
+                "color": "#1f4e79",
+                "label": {
+                  "el": "Μπλε",
+                  "en": "Aegean blue"
+                }
+              }
+            ],
+            "swatchType": "color",
+            "filterDisplay": "auto"
+          },
+          {
+            "id": "size",
+            "name": {
+              "el": "Μέγεθος",
+              "en": "Size"
+            },
+            "values": [
+              {
+                "id": "s",
+                "label": {
+                  "el": "S",
+                  "en": "S"
+                }
+              },
+              {
+                "id": "m",
+                "label": {
+                  "el": "M",
+                  "en": "M"
+                }
+              },
+              {
+                "id": "l",
+                "label": {
+                  "el": "L",
+                  "en": "L"
+                }
+              }
+            ],
+            "swatchType": "button",
+            "filterDisplay": "auto"
+          }
+        ],
+        "categories": [
+          32
+        ],
+        "variations": [
+          {
+            "id": "white-s",
+            "sku": "TEE-WHITE-S",
+            "price": 29,
+            "stock": 12,
+            "enabled": true,
+            "options": {
+              "size": "s",
+              "colour": "white"
+            }
+          },
+          {
+            "id": "white-m",
+            "sku": "TEE-WHITE-M",
+            "price": 29,
+            "stock": 12,
+            "enabled": true,
+            "options": {
+              "size": "m",
+              "colour": "white"
+            }
+          },
+          {
+            "id": "white-l",
+            "sku": "TEE-WHITE-L",
+            "price": 29,
+            "stock": 12,
+            "enabled": true,
+            "options": {
+              "size": "l",
+              "colour": "white"
+            }
+          },
+          {
+            "id": "blue-s",
+            "sku": "TEE-BLUE-S",
+            "price": 32,
+            "stock": 12,
+            "enabled": true,
+            "options": {
+              "size": "s",
+              "colour": "blue"
+            }
+          },
+          {
+            "id": "blue-m",
+            "sku": "TEE-BLUE-M",
+            "price": 32,
+            "stock": 12,
+            "enabled": true,
+            "options": {
+              "size": "m",
+              "colour": "blue"
+            }
+          },
+          {
+            "id": "blue-l",
+            "sku": "TEE-BLUE-L",
+            "price": 32,
+            "stock": 0,
+            "enabled": true,
+            "options": {
+              "size": "l",
+              "colour": "blue"
+            }
+          }
+        ],
+        "visibility": "visible",
+        "weightUnit": "kg",
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Άνετη γραμμή από 100% οργανικό βαμβάκι.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Διαλέξτε χρώμα και μέγεθος — κάθε συνδυασμός έχει δικό του απόθεμα.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "productType": "standard",
+        "availability": "in-stock",
+        "dimensionUnit": "cm"
+      }
+    },
+    {
+      "id": 47,
+      "type": "product",
+      "slug": "island-tee",
+      "locale": "en",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "5e72787c-04d6-48e6-9016-b719fe7b611e",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/en/shop/island-tee",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "sku": "TEE",
+        "brand": "Demo Site",
+        "price": 29,
+        "title": "Island tee",
+        "badges": [
+          "new"
+        ],
+        "weight": 0.25,
+        "featured": true,
+        "subtitle": "Organic cotton, two colours",
+        "condition": "new",
+        "attributes": [
+          {
+            "id": "colour",
+            "name": {
+              "el": "Χρώμα",
+              "en": "Colour"
+            },
+            "values": [
+              {
+                "id": "white",
+                "color": "#f5f3ee",
+                "label": {
+                  "el": "Λευκό",
+                  "en": "White"
+                }
+              },
+              {
+                "id": "blue",
+                "color": "#1f4e79",
+                "label": {
+                  "el": "Μπλε",
+                  "en": "Aegean blue"
+                }
+              }
+            ],
+            "swatchType": "color",
+            "filterDisplay": "auto"
+          },
+          {
+            "id": "size",
+            "name": {
+              "el": "Μέγεθος",
+              "en": "Size"
+            },
+            "values": [
+              {
+                "id": "s",
+                "label": {
+                  "el": "S",
+                  "en": "S"
+                }
+              },
+              {
+                "id": "m",
+                "label": {
+                  "el": "M",
+                  "en": "M"
+                }
+              },
+              {
+                "id": "l",
+                "label": {
+                  "el": "L",
+                  "en": "L"
+                }
+              }
+            ],
+            "swatchType": "button",
+            "filterDisplay": "auto"
+          }
+        ],
+        "categories": [
+          32
+        ],
+        "variations": [
+          {
+            "id": "white-s",
+            "sku": "TEE-WHITE-S",
+            "price": 29,
+            "stock": 12,
+            "enabled": true,
+            "options": {
+              "size": "s",
+              "colour": "white"
+            }
+          },
+          {
+            "id": "white-m",
+            "sku": "TEE-WHITE-M",
+            "price": 29,
+            "stock": 12,
+            "enabled": true,
+            "options": {
+              "size": "m",
+              "colour": "white"
+            }
+          },
+          {
+            "id": "white-l",
+            "sku": "TEE-WHITE-L",
+            "price": 29,
+            "stock": 12,
+            "enabled": true,
+            "options": {
+              "size": "l",
+              "colour": "white"
+            }
+          },
+          {
+            "id": "blue-s",
+            "sku": "TEE-BLUE-S",
+            "price": 32,
+            "stock": 12,
+            "enabled": true,
+            "options": {
+              "size": "s",
+              "colour": "blue"
+            }
+          },
+          {
+            "id": "blue-m",
+            "sku": "TEE-BLUE-M",
+            "price": 32,
+            "stock": 12,
+            "enabled": true,
+            "options": {
+              "size": "m",
+              "colour": "blue"
+            }
+          },
+          {
+            "id": "blue-l",
+            "sku": "TEE-BLUE-L",
+            "price": 32,
+            "stock": 0,
+            "enabled": true,
+            "options": {
+              "size": "l",
+              "colour": "blue"
+            }
+          }
+        ],
+        "visibility": "visible",
+        "weightUnit": "kg",
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "A relaxed fit in 100% organic cotton.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Pick a colour and a size — each combination has its own stock.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "productType": "standard",
+        "availability": "in-stock",
+        "dimensionUnit": "cm"
+      }
+    },
+    {
+      "id": 48,
+      "type": "product",
+      "slug": "linen-shirt",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "2638ed3a-d3e6-4bc1-a93b-49533415f649",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/shop/linen-shirt",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "sku": "LIN-SH",
+        "brand": "Demo Site",
+        "price": 64,
+        "title": "Λινό πουκάμισο",
+        "weight": 0.3,
+        "featured": false,
+        "subtitle": "Ελληνικό λινό, πλυμένο",
+        "condition": "new",
+        "attributes": [
+          {
+            "id": "size",
+            "name": {
+              "el": "Μέγεθος",
+              "en": "Size"
+            },
+            "values": [
+              {
+                "id": "s",
+                "label": {
+                  "el": "S",
+                  "en": "S"
+                }
+              },
+              {
+                "id": "m",
+                "label": {
+                  "el": "M",
+                  "en": "M"
+                }
+              },
+              {
+                "id": "l",
+                "label": {
+                  "el": "L",
+                  "en": "L"
+                }
+              }
+            ],
+            "swatchType": "button",
+            "filterDisplay": "auto"
+          }
+        ],
+        "categories": [
+          32
+        ],
+        "variations": [
+          {
+            "id": "s",
+            "sku": "LIN-SH-S",
+            "stock": 6,
+            "enabled": true,
+            "options": {
+              "size": "s"
+            }
+          },
+          {
+            "id": "m",
+            "sku": "LIN-SH-M",
+            "stock": 6,
+            "enabled": true,
+            "options": {
+              "size": "m"
+            }
+          },
+          {
+            "id": "l",
+            "sku": "LIN-SH-L",
+            "stock": 6,
+            "enabled": true,
+            "options": {
+              "size": "l"
+            }
+          }
+        ],
+        "visibility": "visible",
+        "weightUnit": "kg",
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Ελαφρύ πουκάμισο για τις ζεστές μέρες.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Διαθέσιμο σε S, M, L.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "productType": "standard",
+        "availability": "in-stock",
+        "dimensionUnit": "cm",
+        "compareAtPrice": 79
+      }
+    },
+    {
+      "id": 49,
+      "type": "product",
+      "slug": "linen-shirt",
+      "locale": "en",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "2638ed3a-d3e6-4bc1-a93b-49533415f649",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/en/shop/linen-shirt",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "sku": "LIN-SH",
+        "brand": "Demo Site",
+        "price": 64,
+        "title": "Linen shirt",
+        "weight": 0.3,
+        "featured": false,
+        "subtitle": "Greek linen, stone-washed",
+        "condition": "new",
+        "attributes": [
+          {
+            "id": "size",
+            "name": {
+              "el": "Μέγεθος",
+              "en": "Size"
+            },
+            "values": [
+              {
+                "id": "s",
+                "label": {
+                  "el": "S",
+                  "en": "S"
+                }
+              },
+              {
+                "id": "m",
+                "label": {
+                  "el": "M",
+                  "en": "M"
+                }
+              },
+              {
+                "id": "l",
+                "label": {
+                  "el": "L",
+                  "en": "L"
+                }
+              }
+            ],
+            "swatchType": "button",
+            "filterDisplay": "auto"
+          }
+        ],
+        "categories": [
+          32
+        ],
+        "variations": [
+          {
+            "id": "s",
+            "sku": "LIN-SH-S",
+            "stock": 6,
+            "enabled": true,
+            "options": {
+              "size": "s"
+            }
+          },
+          {
+            "id": "m",
+            "sku": "LIN-SH-M",
+            "stock": 6,
+            "enabled": true,
+            "options": {
+              "size": "m"
+            }
+          },
+          {
+            "id": "l",
+            "sku": "LIN-SH-L",
+            "stock": 6,
+            "enabled": true,
+            "options": {
+              "size": "l"
+            }
+          }
+        ],
+        "visibility": "visible",
+        "weightUnit": "kg",
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "A light shirt for hot days.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Available in S, M and L.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "productType": "standard",
+        "availability": "in-stock",
+        "dimensionUnit": "cm",
+        "compareAtPrice": 79
+      }
+    },
+    {
+      "id": 50,
+      "type": "product",
+      "slug": "straw-beach-hat",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "54a287cc-efce-4f62-be3c-b94149126aae",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/shop/straw-beach-hat",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "sku": "HAT-STRAW",
+        "brand": "Demo Site",
+        "price": 38,
+        "title": "Ψάθινο καπέλο",
+        "weight": 0.2,
+        "featured": false,
+        "subtitle": "Πλεγμένο στο χέρι",
+        "condition": "new",
+        "categories": [
+          32
+        ],
+        "visibility": "visible",
+        "weightUnit": "kg",
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Φαρδύ γείσο για τον ήλιο του Αυγούστου.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Κατασκευάζεται κατά παραγγελία σε 10 ημέρες.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "productType": "standard",
+        "availability": "made-to-order",
+        "dimensionUnit": "cm"
+      }
+    },
+    {
+      "id": 51,
+      "type": "product",
+      "slug": "straw-beach-hat",
+      "locale": "en",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "54a287cc-efce-4f62-be3c-b94149126aae",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/en/shop/straw-beach-hat",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "sku": "HAT-STRAW",
+        "brand": "Demo Site",
+        "price": 38,
+        "title": "Straw beach hat",
+        "weight": 0.2,
+        "featured": false,
+        "subtitle": "Hand-woven",
+        "condition": "new",
+        "categories": [
+          32
+        ],
+        "visibility": "visible",
+        "weightUnit": "kg",
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "A wide brim for the August sun.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Made to order in 10 days.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "productType": "standard",
+        "availability": "made-to-order",
+        "dimensionUnit": "cm"
+      }
+    },
+    {
+      "id": 52,
+      "type": "product",
+      "slug": "linen-tablecloth",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "e19c4142-4d35-4615-a236-faa2d2f6341a",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/shop/linen-tablecloth",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "sku": "HOME-TCL-150",
+        "brand": "Demo Site",
+        "price": 72,
+        "stock": 8,
+        "title": "Λινό τραπεζομάντιλο",
+        "weight": 0.9,
+        "featured": false,
+        "subtitle": "150 × 250 cm, φυσικό",
+        "condition": "new",
+        "categories": [
+          33
+        ],
+        "visibility": "visible",
+        "weightUnit": "kg",
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Υφασμένο σε αργαλειό στο Σουφλί.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Πλένεται στους 40°C.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "productType": "standard",
+        "availability": "in-stock",
+        "dimensionUnit": "cm"
+      }
+    },
+    {
+      "id": 53,
+      "type": "product",
+      "slug": "linen-tablecloth",
+      "locale": "en",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "e19c4142-4d35-4615-a236-faa2d2f6341a",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/en/shop/linen-tablecloth",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "sku": "HOME-TCL-150",
+        "brand": "Demo Site",
+        "price": 72,
+        "stock": 8,
+        "title": "Linen tablecloth",
+        "weight": 0.9,
+        "featured": false,
+        "subtitle": "150 × 250 cm, natural",
+        "condition": "new",
+        "categories": [
+          33
+        ],
+        "visibility": "visible",
+        "weightUnit": "kg",
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Loom-woven in Soufli.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Machine wash at 40°C.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "productType": "standard",
+        "availability": "in-stock",
+        "dimensionUnit": "cm"
+      }
+    },
+    {
+      "id": 54,
+      "type": "product",
+      "slug": "olive-wood-board",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "a0be2f27-f7ee-4f1b-8a2b-73a298a442b0",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/shop/olive-wood-board",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "sku": "HOME-OWB-40",
+        "brand": "Demo Site",
+        "price": 34,
+        "stock": 18,
+        "title": "Ξύλο κοπής από ελιά",
+        "weight": 1.1,
+        "featured": true,
+        "subtitle": "Κάθε νερά μοναδικά",
+        "condition": "new",
+        "categories": [
+          33
+        ],
+        "visibility": "visible",
+        "weightUnit": "kg",
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Από ξύλο ελιάς κλαδέματος, λαδωμένο.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Για σερβίρισμα και κοπή.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "productType": "standard",
+        "availability": "in-stock",
+        "dimensionUnit": "cm"
+      }
+    },
+    {
+      "id": 55,
+      "type": "product",
+      "slug": "olive-wood-board",
+      "locale": "en",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "a0be2f27-f7ee-4f1b-8a2b-73a298a442b0",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/en/shop/olive-wood-board",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "sku": "HOME-OWB-40",
+        "brand": "Demo Site",
+        "price": 34,
+        "stock": 18,
+        "title": "Olive wood board",
+        "weight": 1.1,
+        "featured": true,
+        "subtitle": "Unique grain on every piece",
+        "condition": "new",
+        "categories": [
+          33
+        ],
+        "visibility": "visible",
+        "weightUnit": "kg",
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "From pruned olive wood, oiled.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "For serving and chopping.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "productType": "standard",
+        "availability": "in-stock",
+        "dimensionUnit": "cm"
+      }
+    },
+    {
+      "id": 56,
+      "type": "product",
+      "slug": "beeswax-candle",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "36150b5b-4267-4773-9e70-69d6a4b2850b",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/shop/beeswax-candle",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "sku": "HOME-CANDLE",
+        "brand": "Demo Site",
+        "price": 18,
+        "title": "Κερί από κερί μέλισσας",
+        "weight": 0.4,
+        "featured": false,
+        "subtitle": "Προπαραγγελία — νέα παρτίδα τον Οκτώβριο",
+        "condition": "new",
+        "categories": [
+          33
+        ],
+        "visibility": "visible",
+        "weightUnit": "kg",
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Χυτό στο χέρι, καίει 40 ώρες.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Αποστέλλεται με τη νέα παρτίδα.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "productType": "standard",
+        "availability": "preorder",
+        "dimensionUnit": "cm"
+      }
+    },
+    {
+      "id": 57,
+      "type": "product",
+      "slug": "beeswax-candle",
+      "locale": "en",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "36150b5b-4267-4773-9e70-69d6a4b2850b",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/en/shop/beeswax-candle",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "sku": "HOME-CANDLE",
+        "brand": "Demo Site",
+        "price": 18,
+        "title": "Beeswax candle",
+        "weight": 0.4,
+        "featured": false,
+        "subtitle": "Pre-order — new batch in October",
+        "condition": "new",
+        "categories": [
+          33
+        ],
+        "visibility": "visible",
+        "weightUnit": "kg",
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Hand-poured, burns for 40 hours.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Ships with the new batch.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "productType": "standard",
+        "availability": "preorder",
+        "dimensionUnit": "cm"
+      }
+    },
+    {
+      "id": 58,
+      "type": "booking_category",
+      "slug": "villas",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "a29180f0-24f1-4eba-8d2c-d5ea4db613d7",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": null,
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "title": {
+          "el": "Βίλες",
+          "en": "Villas"
+        }
+      }
+    },
+    {
+      "id": 59,
+      "type": "booking_category",
+      "slug": "apartments",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "9cbfa6ef-81ba-4323-ba97-d2405eb8d6a0",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": null,
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "title": {
+          "el": "Διαμερίσματα & στούντιο",
+          "en": "Apartments & studios"
+        }
+      }
+    },
+    {
+      "id": 60,
+      "type": "vessel_type",
+      "slug": "villa",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "55af7006-aca2-4849-93e1-e142408c3f2f",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": null,
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "title": {
+          "el": "Βίλα",
+          "en": "Villa"
+        }
+      }
+    },
+    {
+      "id": 61,
+      "type": "vessel_type",
+      "slug": "apartment",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "d91b9138-2a19-4f24-ae5c-e036a205c72c",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": null,
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "title": {
+          "el": "Διαμέρισμα",
+          "en": "Apartment"
+        }
+      }
+    },
+    {
+      "id": 62,
+      "type": "vessel_type",
+      "slug": "studio",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "9c67b370-9702-4280-9063-106c375129fa",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": null,
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "title": {
+          "el": "Στούντιο",
+          "en": "Studio"
+        }
+      }
+    },
+    {
+      "id": 63,
+      "type": "departure_location",
+      "slug": "paros",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "e287a94e-140e-4daa-804b-a39334de7cf0",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": null,
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "title": {
+          "el": "Πάρος",
+          "en": "Paros"
+        }
+      }
+    },
+    {
+      "id": 64,
+      "type": "departure_location",
+      "slug": "naxos",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "217e8e63-ce88-4720-8f1f-e9480161008e",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": null,
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "title": {
+          "el": "Νάξος",
+          "en": "Naxos"
+        }
+      }
+    },
+    {
+      "id": 65,
+      "type": "departure_location",
+      "slug": "santorini",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "44219ef9-da7c-4a0f-852f-68a66e27b526",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": null,
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "title": {
+          "el": "Σαντορίνη",
+          "en": "Santorini"
+        }
+      }
+    },
+    {
+      "id": 66,
+      "type": "booking",
+      "slug": "villa-thalassa",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "fd620aa0-be1b-4cf5-9104-bf87df8b793d",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/booking/villa-thalassa",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "fees": [
+          {
+            "id": "cleaning",
+            "basis": "per_stay",
+            "label": {
+              "el": "Καθαριότητα",
+              "en": "Cleaning fee"
+            },
+            "amount": 80
+          },
+          {
+            "id": "climate-tax",
+            "basis": "per_night",
+            "label": {
+              "el": "Τέλος ανθεκτικότητας",
+              "en": "Climate resilience fee"
+            },
+            "amount": 4
+          }
+        ],
+        "kind": "stay",
+        "title": "Βίλα Θάλασσα",
+        "types": [
+          60
+        ],
+        "subtitle": "Πισίνα και θέα στο ηλιοβασίλεμα",
+        "minNights": 3,
+        "quickInfo": [
+          {
+            "id": "guests",
+            "icon": "users",
+            "label": {
+              "el": "Επισκέπτες",
+              "en": "Guests"
+            },
+            "value": "6",
+            "suffix": {
+              "el": "άτομα",
+              "en": "people"
+            }
+          },
+          {
+            "id": "bedrooms",
+            "icon": "bed-double",
+            "label": {
+              "el": "Υπνοδωμάτια",
+              "en": "Bedrooms"
+            },
+            "value": "3"
+          },
+          {
+            "id": "nights",
+            "icon": "moon",
+            "label": {
+              "el": "Ελάχιστη διαμονή",
+              "en": "Minimum stay"
+            },
+            "value": "3",
+            "suffix": {
+              "el": "νύχτες",
+              "en": "nights"
+            }
+          }
+        ],
+        "categories": [
+          58
+        ],
+        "departures": [
+          63
+        ],
+        "maxPersons": 999,
+        "minPersons": 1,
+        "availableTo": "10-31",
+        "bookingMode": "inherit",
+        "checkInDays": [
+          "6"
+        ],
+        "childMaxAge": 12,
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Τριάρι βίλα 200 μέτρα από την παραλία της Χρυσής Ακτής.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Ιδιωτική πισίνα, κήπος με ελιές και καθημερινή καθαριότητα.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "nightlyRate": 320,
+        "pricingMode": "multiply",
+        "checkOutDays": [
+          "6"
+        ],
+        "maxOccupancy": 6,
+        "availableFrom": "04-15",
+        "baseOccupancy": 4,
+        "childPerNight": 10,
+        "leadTimeHours": 48,
+        "seasonalRates": [
+          {
+            "id": "high",
+            "to": "08-31",
+            "from": "07-01",
+            "rate": 480,
+            "minNights": 5
+          }
+        ],
+        "allocationMode": "shared",
+        "capacityPerDay": 1,
+        "depositPercent": 30,
+        "maxAdvanceDays": 365,
+        "childrenEnabled": true,
+        "cancellationPolicy": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Δωρεάν ακύρωση έως 14 ημέρες πριν την άφιξη. Μετά, η προκαταβολή δεν επιστρέφεται.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "extraGuestPerNight": 30,
+        "freeCancellationDays": 14
+      }
+    },
+    {
+      "id": 67,
+      "type": "booking",
+      "slug": "villa-thalassa",
+      "locale": "en",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "fd620aa0-be1b-4cf5-9104-bf87df8b793d",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/en/booking/villa-thalassa",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "fees": [
+          {
+            "id": "cleaning",
+            "basis": "per_stay",
+            "label": {
+              "el": "Καθαριότητα",
+              "en": "Cleaning fee"
+            },
+            "amount": 80
+          },
+          {
+            "id": "climate-tax",
+            "basis": "per_night",
+            "label": {
+              "el": "Τέλος ανθεκτικότητας",
+              "en": "Climate resilience fee"
+            },
+            "amount": 4
+          }
+        ],
+        "kind": "stay",
+        "title": "Villa Thalassa",
+        "types": [
+          60
+        ],
+        "subtitle": "Private pool and sunset views",
+        "minNights": 3,
+        "quickInfo": [
+          {
+            "id": "guests",
+            "icon": "users",
+            "label": {
+              "el": "Επισκέπτες",
+              "en": "Guests"
+            },
+            "value": "6",
+            "suffix": {
+              "el": "άτομα",
+              "en": "people"
+            }
+          },
+          {
+            "id": "bedrooms",
+            "icon": "bed-double",
+            "label": {
+              "el": "Υπνοδωμάτια",
+              "en": "Bedrooms"
+            },
+            "value": "3"
+          },
+          {
+            "id": "nights",
+            "icon": "moon",
+            "label": {
+              "el": "Ελάχιστη διαμονή",
+              "en": "Minimum stay"
+            },
+            "value": "3",
+            "suffix": {
+              "el": "νύχτες",
+              "en": "nights"
+            }
+          }
+        ],
+        "categories": [
+          58
+        ],
+        "departures": [
+          63
+        ],
+        "maxPersons": 999,
+        "minPersons": 1,
+        "availableTo": "10-31",
+        "bookingMode": "inherit",
+        "checkInDays": [
+          "6"
+        ],
+        "childMaxAge": 12,
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "A three-bedroom villa 200 metres from Golden Beach.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Private pool, an olive garden and daily housekeeping.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "nightlyRate": 320,
+        "pricingMode": "multiply",
+        "checkOutDays": [
+          "6"
+        ],
+        "maxOccupancy": 6,
+        "availableFrom": "04-15",
+        "baseOccupancy": 4,
+        "childPerNight": 10,
+        "leadTimeHours": 48,
+        "seasonalRates": [
+          {
+            "id": "high",
+            "to": "08-31",
+            "from": "07-01",
+            "rate": 480,
+            "minNights": 5
+          }
+        ],
+        "allocationMode": "shared",
+        "capacityPerDay": 1,
+        "depositPercent": 30,
+        "maxAdvanceDays": 365,
+        "childrenEnabled": true,
+        "cancellationPolicy": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Free cancellation up to 14 days before arrival. After that the deposit is non-refundable.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "extraGuestPerNight": 30,
+        "freeCancellationDays": 14
+      }
+    },
+    {
+      "id": 68,
+      "type": "booking",
+      "slug": "villa-ampelos",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "8c3d6357-7060-4ef7-8cc8-1821254227ce",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/booking/villa-ampelos",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "fees": [
+          {
+            "id": "cleaning",
+            "basis": "per_stay",
+            "label": {
+              "el": "Καθαριότητα",
+              "en": "Cleaning fee"
+            },
+            "amount": 100
+          },
+          {
+            "id": "climate-tax",
+            "basis": "per_night",
+            "label": {
+              "el": "Τέλος ανθεκτικότητας",
+              "en": "Climate resilience fee"
+            },
+            "amount": 4
+          }
+        ],
+        "kind": "stay",
+        "title": "Βίλα Άμπελος",
+        "types": [
+          60
+        ],
+        "subtitle": "Ανάμεσα στα αμπέλια",
+        "minNights": 4,
+        "quickInfo": [
+          {
+            "id": "guests",
+            "icon": "users",
+            "label": {
+              "el": "Επισκέπτες",
+              "en": "Guests"
+            },
+            "value": "8",
+            "suffix": {
+              "el": "άτομα",
+              "en": "people"
+            }
+          },
+          {
+            "id": "bedrooms",
+            "icon": "bed-double",
+            "label": {
+              "el": "Υπνοδωμάτια",
+              "en": "Bedrooms"
+            },
+            "value": "4"
+          },
+          {
+            "id": "nights",
+            "icon": "moon",
+            "label": {
+              "el": "Ελάχιστη διαμονή",
+              "en": "Minimum stay"
+            },
+            "value": "4",
+            "suffix": {
+              "el": "νύχτες",
+              "en": "nights"
+            }
+          }
+        ],
+        "categories": [
+          58
+        ],
+        "departures": [
+          65
+        ],
+        "maxPersons": 999,
+        "minPersons": 1,
+        "availableTo": "10-31",
+        "bookingMode": "inherit",
+        "childMaxAge": 12,
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Πέτρινη βίλα στην ενδοχώρα της Σαντορίνης.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Γευσιγνωσία κρασιού στο κτήμα δίπλα.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "nightlyRate": 390,
+        "pricingMode": "multiply",
+        "maxOccupancy": 8,
+        "availableFrom": "04-15",
+        "baseOccupancy": 4,
+        "childPerNight": 10,
+        "leadTimeHours": 48,
+        "seasonalRates": [
+          {
+            "id": "high",
+            "to": "08-31",
+            "from": "07-01",
+            "rate": 560,
+            "minNights": 5
+          }
+        ],
+        "allocationMode": "shared",
+        "capacityPerDay": 1,
+        "depositPercent": 30,
+        "maxAdvanceDays": 365,
+        "childrenEnabled": true,
+        "cancellationPolicy": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Δωρεάν ακύρωση έως 14 ημέρες πριν την άφιξη. Μετά, η προκαταβολή δεν επιστρέφεται.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "extraGuestPerNight": 40,
+        "freeCancellationDays": 14
+      }
+    },
+    {
+      "id": 69,
+      "type": "booking",
+      "slug": "villa-ampelos",
+      "locale": "en",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "8c3d6357-7060-4ef7-8cc8-1821254227ce",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/en/booking/villa-ampelos",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "fees": [
+          {
+            "id": "cleaning",
+            "basis": "per_stay",
+            "label": {
+              "el": "Καθαριότητα",
+              "en": "Cleaning fee"
+            },
+            "amount": 100
+          },
+          {
+            "id": "climate-tax",
+            "basis": "per_night",
+            "label": {
+              "el": "Τέλος ανθεκτικότητας",
+              "en": "Climate resilience fee"
+            },
+            "amount": 4
+          }
+        ],
+        "kind": "stay",
+        "title": "Villa Ampelos",
+        "types": [
+          60
+        ],
+        "subtitle": "Among the vineyards",
+        "minNights": 4,
+        "quickInfo": [
+          {
+            "id": "guests",
+            "icon": "users",
+            "label": {
+              "el": "Επισκέπτες",
+              "en": "Guests"
+            },
+            "value": "8",
+            "suffix": {
+              "el": "άτομα",
+              "en": "people"
+            }
+          },
+          {
+            "id": "bedrooms",
+            "icon": "bed-double",
+            "label": {
+              "el": "Υπνοδωμάτια",
+              "en": "Bedrooms"
+            },
+            "value": "4"
+          },
+          {
+            "id": "nights",
+            "icon": "moon",
+            "label": {
+              "el": "Ελάχιστη διαμονή",
+              "en": "Minimum stay"
+            },
+            "value": "4",
+            "suffix": {
+              "el": "νύχτες",
+              "en": "nights"
+            }
+          }
+        ],
+        "categories": [
+          58
+        ],
+        "departures": [
+          65
+        ],
+        "maxPersons": 999,
+        "minPersons": 1,
+        "availableTo": "10-31",
+        "bookingMode": "inherit",
+        "childMaxAge": 12,
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "A stone villa in the Santorini countryside.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Wine tasting at the estate next door.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "nightlyRate": 390,
+        "pricingMode": "multiply",
+        "maxOccupancy": 8,
+        "availableFrom": "04-15",
+        "baseOccupancy": 4,
+        "childPerNight": 10,
+        "leadTimeHours": 48,
+        "seasonalRates": [
+          {
+            "id": "high",
+            "to": "08-31",
+            "from": "07-01",
+            "rate": 560,
+            "minNights": 5
+          }
+        ],
+        "allocationMode": "shared",
+        "capacityPerDay": 1,
+        "depositPercent": 30,
+        "maxAdvanceDays": 365,
+        "childrenEnabled": true,
+        "cancellationPolicy": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Free cancellation up to 14 days before arrival. After that the deposit is non-refundable.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "extraGuestPerNight": 40,
+        "freeCancellationDays": 14
+      }
+    },
+    {
+      "id": 70,
+      "type": "booking",
+      "slug": "naxos-harbour-apartment",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "7c53db5d-4bfd-4a5f-aacd-36e1e8e44c48",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/booking/naxos-harbour-apartment",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "fees": [
+          {
+            "id": "cleaning",
+            "basis": "per_stay",
+            "label": {
+              "el": "Καθαριότητα",
+              "en": "Cleaning fee"
+            },
+            "amount": 45
+          },
+          {
+            "id": "climate-tax",
+            "basis": "per_night",
+            "label": {
+              "el": "Τέλος ανθεκτικότητας",
+              "en": "Climate resilience fee"
+            },
+            "amount": 4
+          }
+        ],
+        "kind": "stay",
+        "title": "Διαμέρισμα στο λιμάνι της Νάξου",
+        "types": [
+          61
+        ],
+        "subtitle": "Δύο βήματα από την Πορτάρα",
+        "minNights": 2,
+        "quickInfo": [
+          {
+            "id": "guests",
+            "icon": "users",
+            "label": {
+              "el": "Επισκέπτες",
+              "en": "Guests"
+            },
+            "value": "5",
+            "suffix": {
+              "el": "άτομα",
+              "en": "people"
+            }
+          },
+          {
+            "id": "bedrooms",
+            "icon": "bed-double",
+            "label": {
+              "el": "Υπνοδωμάτια",
+              "en": "Bedrooms"
+            },
+            "value": "2"
+          },
+          {
+            "id": "nights",
+            "icon": "moon",
+            "label": {
+              "el": "Ελάχιστη διαμονή",
+              "en": "Minimum stay"
+            },
+            "value": "2",
+            "suffix": {
+              "el": "νύχτες",
+              "en": "nights"
+            }
+          }
+        ],
+        "categories": [
+          59
+        ],
+        "departures": [
+          64
+        ],
+        "maxPersons": 999,
+        "minPersons": 1,
+        "availableTo": "10-31",
+        "bookingMode": "inherit",
+        "childMaxAge": 12,
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Φωτεινό δυάρι με μπαλκόνι πάνω από το λιμάνι.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Ιδανικό για οικογένειες — εστιατόρια και παραλία με τα πόδια.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "nightlyRate": 140,
+        "pricingMode": "multiply",
+        "maxOccupancy": 5,
+        "availableFrom": "04-15",
+        "baseOccupancy": 2,
+        "childPerNight": 10,
+        "leadTimeHours": 48,
+        "seasonalRates": [
+          {
+            "id": "high",
+            "to": "08-31",
+            "from": "07-01",
+            "rate": 210,
+            "minNights": 5
+          }
+        ],
+        "allocationMode": "shared",
+        "capacityPerDay": 1,
+        "depositPercent": 30,
+        "maxAdvanceDays": 365,
+        "childrenEnabled": true,
+        "cancellationPolicy": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Δωρεάν ακύρωση έως 14 ημέρες πριν την άφιξη. Μετά, η προκαταβολή δεν επιστρέφεται.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "extraGuestPerNight": 20,
+        "freeCancellationDays": 14
+      }
+    },
+    {
+      "id": 71,
+      "type": "booking",
+      "slug": "naxos-harbour-apartment",
+      "locale": "en",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "7c53db5d-4bfd-4a5f-aacd-36e1e8e44c48",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/en/booking/naxos-harbour-apartment",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "fees": [
+          {
+            "id": "cleaning",
+            "basis": "per_stay",
+            "label": {
+              "el": "Καθαριότητα",
+              "en": "Cleaning fee"
+            },
+            "amount": 45
+          },
+          {
+            "id": "climate-tax",
+            "basis": "per_night",
+            "label": {
+              "el": "Τέλος ανθεκτικότητας",
+              "en": "Climate resilience fee"
+            },
+            "amount": 4
+          }
+        ],
+        "kind": "stay",
+        "title": "Naxos harbour apartment",
+        "types": [
+          61
+        ],
+        "subtitle": "Steps from the Portara",
+        "minNights": 2,
+        "quickInfo": [
+          {
+            "id": "guests",
+            "icon": "users",
+            "label": {
+              "el": "Επισκέπτες",
+              "en": "Guests"
+            },
+            "value": "5",
+            "suffix": {
+              "el": "άτομα",
+              "en": "people"
+            }
+          },
+          {
+            "id": "bedrooms",
+            "icon": "bed-double",
+            "label": {
+              "el": "Υπνοδωμάτια",
+              "en": "Bedrooms"
+            },
+            "value": "2"
+          },
+          {
+            "id": "nights",
+            "icon": "moon",
+            "label": {
+              "el": "Ελάχιστη διαμονή",
+              "en": "Minimum stay"
+            },
+            "value": "2",
+            "suffix": {
+              "el": "νύχτες",
+              "en": "nights"
+            }
+          }
+        ],
+        "categories": [
+          59
+        ],
+        "departures": [
+          64
+        ],
+        "maxPersons": 999,
+        "minPersons": 1,
+        "availableTo": "10-31",
+        "bookingMode": "inherit",
+        "childMaxAge": 12,
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "A bright two-bedroom flat with a balcony over the harbour.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Ideal for families — restaurants and the beach on foot.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "nightlyRate": 140,
+        "pricingMode": "multiply",
+        "maxOccupancy": 5,
+        "availableFrom": "04-15",
+        "baseOccupancy": 2,
+        "childPerNight": 10,
+        "leadTimeHours": 48,
+        "seasonalRates": [
+          {
+            "id": "high",
+            "to": "08-31",
+            "from": "07-01",
+            "rate": 210,
+            "minNights": 5
+          }
+        ],
+        "allocationMode": "shared",
+        "capacityPerDay": 1,
+        "depositPercent": 30,
+        "maxAdvanceDays": 365,
+        "childrenEnabled": true,
+        "cancellationPolicy": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Free cancellation up to 14 days before arrival. After that the deposit is non-refundable.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "extraGuestPerNight": 20,
+        "freeCancellationDays": 14
+      }
+    },
+    {
+      "id": 72,
+      "type": "booking",
+      "slug": "naoussa-studio",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "82dff892-43ea-4244-8a31-7a9bde5f466a",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/booking/naoussa-studio",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "fees": [
+          {
+            "id": "cleaning",
+            "basis": "per_stay",
+            "label": {
+              "el": "Καθαριότητα",
+              "en": "Cleaning fee"
+            },
+            "amount": 25
+          },
+          {
+            "id": "climate-tax",
+            "basis": "per_night",
+            "label": {
+              "el": "Τέλος ανθεκτικότητας",
+              "en": "Climate resilience fee"
+            },
+            "amount": 4
+          }
+        ],
+        "kind": "stay",
+        "title": "Στούντιο στη Νάουσα",
+        "types": [
+          62
+        ],
+        "subtitle": "Για δύο, στο κέντρο του χωριού",
+        "minNights": 2,
+        "quickInfo": [
+          {
+            "id": "guests",
+            "icon": "users",
+            "label": {
+              "el": "Επισκέπτες",
+              "en": "Guests"
+            },
+            "value": "2",
+            "suffix": {
+              "el": "άτομα",
+              "en": "people"
+            }
+          },
+          {
+            "id": "bedrooms",
+            "icon": "bed-double",
+            "label": {
+              "el": "Υπνοδωμάτια",
+              "en": "Bedrooms"
+            },
+            "value": "1"
+          },
+          {
+            "id": "nights",
+            "icon": "moon",
+            "label": {
+              "el": "Ελάχιστη διαμονή",
+              "en": "Minimum stay"
+            },
+            "value": "2",
+            "suffix": {
+              "el": "νύχτες",
+              "en": "nights"
+            }
+          }
+        ],
+        "categories": [
+          59
+        ],
+        "departures": [
+          63
+        ],
+        "maxPersons": 999,
+        "minPersons": 1,
+        "availableTo": "10-31",
+        "bookingMode": "inherit",
+        "childMaxAge": 12,
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Κυκλαδίτικο στούντιο με αυλή.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Κλιματισμός, κουζινούλα, γρήγορο Wi-Fi.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "nightlyRate": 85,
+        "pricingMode": "multiply",
+        "maxOccupancy": 2,
+        "availableFrom": "04-15",
+        "baseOccupancy": 2,
+        "leadTimeHours": 48,
+        "seasonalRates": [
+          {
+            "id": "high",
+            "to": "08-31",
+            "from": "07-01",
+            "rate": 130,
+            "minNights": 5
+          }
+        ],
+        "allocationMode": "shared",
+        "capacityPerDay": 1,
+        "depositPercent": 30,
+        "maxAdvanceDays": 365,
+        "childrenEnabled": false,
+        "cancellationPolicy": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Δωρεάν ακύρωση έως 14 ημέρες πριν την άφιξη. Μετά, η προκαταβολή δεν επιστρέφεται.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "freeCancellationDays": 14
+      }
+    },
+    {
+      "id": 73,
+      "type": "booking",
+      "slug": "naoussa-studio",
+      "locale": "en",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "82dff892-43ea-4244-8a31-7a9bde5f466a",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/en/booking/naoussa-studio",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "fees": [
+          {
+            "id": "cleaning",
+            "basis": "per_stay",
+            "label": {
+              "el": "Καθαριότητα",
+              "en": "Cleaning fee"
+            },
+            "amount": 25
+          },
+          {
+            "id": "climate-tax",
+            "basis": "per_night",
+            "label": {
+              "el": "Τέλος ανθεκτικότητας",
+              "en": "Climate resilience fee"
+            },
+            "amount": 4
+          }
+        ],
+        "kind": "stay",
+        "title": "Naoussa studio",
+        "types": [
+          62
+        ],
+        "subtitle": "For two, in the heart of the village",
+        "minNights": 2,
+        "quickInfo": [
+          {
+            "id": "guests",
+            "icon": "users",
+            "label": {
+              "el": "Επισκέπτες",
+              "en": "Guests"
+            },
+            "value": "2",
+            "suffix": {
+              "el": "άτομα",
+              "en": "people"
+            }
+          },
+          {
+            "id": "bedrooms",
+            "icon": "bed-double",
+            "label": {
+              "el": "Υπνοδωμάτια",
+              "en": "Bedrooms"
+            },
+            "value": "1"
+          },
+          {
+            "id": "nights",
+            "icon": "moon",
+            "label": {
+              "el": "Ελάχιστη διαμονή",
+              "en": "Minimum stay"
+            },
+            "value": "2",
+            "suffix": {
+              "el": "νύχτες",
+              "en": "nights"
+            }
+          }
+        ],
+        "categories": [
+          59
+        ],
+        "departures": [
+          63
+        ],
+        "maxPersons": 999,
+        "minPersons": 1,
+        "availableTo": "10-31",
+        "bookingMode": "inherit",
+        "childMaxAge": 12,
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "A Cycladic studio with a courtyard.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Air conditioning, kitchenette, fast Wi-Fi.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "nightlyRate": 85,
+        "pricingMode": "multiply",
+        "maxOccupancy": 2,
+        "availableFrom": "04-15",
+        "baseOccupancy": 2,
+        "leadTimeHours": 48,
+        "seasonalRates": [
+          {
+            "id": "high",
+            "to": "08-31",
+            "from": "07-01",
+            "rate": 130,
+            "minNights": 5
+          }
+        ],
+        "allocationMode": "shared",
+        "capacityPerDay": 1,
+        "depositPercent": 30,
+        "maxAdvanceDays": 365,
+        "childrenEnabled": false,
+        "cancellationPolicy": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Free cancellation up to 14 days before arrival. After that the deposit is non-refundable.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "freeCancellationDays": 14
+      }
+    },
+    {
+      "id": 74,
+      "type": "booking",
+      "slug": "oia-cave-suite",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "38e1c99a-6d74-4ade-a860-b0807e3a7fd6",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/booking/oia-cave-suite",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "fees": [
+          {
+            "id": "climate-tax",
+            "basis": "per_night",
+            "label": {
+              "el": "Τέλος ανθεκτικότητας",
+              "en": "Climate resilience fee"
+            },
+            "amount": 4
+          }
+        ],
+        "kind": "stay",
+        "title": "Σπηλιά-σουίτα στην Οία",
+        "types": [
+          62
+        ],
+        "subtitle": "Υπαίθριο τζακούζι στην καλντέρα",
+        "minNights": 2,
+        "quickInfo": [
+          {
+            "id": "guests",
+            "icon": "users",
+            "label": {
+              "el": "Επισκέπτες",
+              "en": "Guests"
+            },
+            "value": "3",
+            "suffix": {
+              "el": "άτομα",
+              "en": "people"
+            }
+          },
+          {
+            "id": "bedrooms",
+            "icon": "bed-double",
+            "label": {
+              "el": "Υπνοδωμάτια",
+              "en": "Bedrooms"
+            },
+            "value": "1"
+          },
+          {
+            "id": "nights",
+            "icon": "moon",
+            "label": {
+              "el": "Ελάχιστη διαμονή",
+              "en": "Minimum stay"
+            },
+            "value": "2",
+            "suffix": {
+              "el": "νύχτες",
+              "en": "nights"
+            }
+          }
+        ],
+        "categories": [
+          59
+        ],
+        "departures": [
+          65
+        ],
+        "maxPersons": 999,
+        "minPersons": 1,
+        "availableTo": "10-31",
+        "bookingMode": "inherit",
+        "childMaxAge": 12,
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Παραδοσιακή υπόσκαφη σουίτα με θέα στην καλντέρα.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Πρωινό στη βεράντα κάθε μέρα.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "nightlyRate": 260,
+        "pricingMode": "multiply",
+        "maxOccupancy": 3,
+        "availableFrom": "04-15",
+        "baseOccupancy": 2,
+        "childPerNight": 10,
+        "leadTimeHours": 48,
+        "seasonalRates": [
+          {
+            "id": "high",
+            "to": "08-31",
+            "from": "07-01",
+            "rate": 420,
+            "minNights": 5
+          }
+        ],
+        "allocationMode": "shared",
+        "capacityPerDay": 1,
+        "depositPercent": 30,
+        "maxAdvanceDays": 365,
+        "childrenEnabled": true,
+        "cancellationPolicy": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Δωρεάν ακύρωση έως 14 ημέρες πριν την άφιξη. Μετά, η προκαταβολή δεν επιστρέφεται.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "extraGuestPerNight": 50,
+        "freeCancellationDays": 14
+      }
+    },
+    {
+      "id": 75,
+      "type": "booking",
+      "slug": "oia-cave-suite",
+      "locale": "en",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "38e1c99a-6d74-4ade-a860-b0807e3a7fd6",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/en/booking/oia-cave-suite",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "fees": [
+          {
+            "id": "climate-tax",
+            "basis": "per_night",
+            "label": {
+              "el": "Τέλος ανθεκτικότητας",
+              "en": "Climate resilience fee"
+            },
+            "amount": 4
+          }
+        ],
+        "kind": "stay",
+        "title": "Oia cave suite",
+        "types": [
+          62
+        ],
+        "subtitle": "Outdoor jacuzzi on the caldera",
+        "minNights": 2,
+        "quickInfo": [
+          {
+            "id": "guests",
+            "icon": "users",
+            "label": {
+              "el": "Επισκέπτες",
+              "en": "Guests"
+            },
+            "value": "3",
+            "suffix": {
+              "el": "άτομα",
+              "en": "people"
+            }
+          },
+          {
+            "id": "bedrooms",
+            "icon": "bed-double",
+            "label": {
+              "el": "Υπνοδωμάτια",
+              "en": "Bedrooms"
+            },
+            "value": "1"
+          },
+          {
+            "id": "nights",
+            "icon": "moon",
+            "label": {
+              "el": "Ελάχιστη διαμονή",
+              "en": "Minimum stay"
+            },
+            "value": "2",
+            "suffix": {
+              "el": "νύχτες",
+              "en": "nights"
+            }
+          }
+        ],
+        "categories": [
+          59
+        ],
+        "departures": [
+          65
+        ],
+        "maxPersons": 999,
+        "minPersons": 1,
+        "availableTo": "10-31",
+        "bookingMode": "inherit",
+        "childMaxAge": 12,
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "A traditional cave suite looking over the caldera.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Breakfast on the terrace every morning.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "nightlyRate": 260,
+        "pricingMode": "multiply",
+        "maxOccupancy": 3,
+        "availableFrom": "04-15",
+        "baseOccupancy": 2,
+        "childPerNight": 10,
+        "leadTimeHours": 48,
+        "seasonalRates": [
+          {
+            "id": "high",
+            "to": "08-31",
+            "from": "07-01",
+            "rate": 420,
+            "minNights": 5
+          }
+        ],
+        "allocationMode": "shared",
+        "capacityPerDay": 1,
+        "depositPercent": 30,
+        "maxAdvanceDays": 365,
+        "childrenEnabled": true,
+        "cancellationPolicy": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Free cancellation up to 14 days before arrival. After that the deposit is non-refundable.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "extraGuestPerNight": 50,
+        "freeCancellationDays": 14
+      }
+    },
+    {
+      "id": 76,
+      "type": "author",
+      "slug": "eleni-marinou",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "9b341661-4d69-4726-b994-ce36efab9e0d",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/authors/eleni-marinou",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "bio": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Γράφει για τα νησιά εδώ και δέκα χρόνια.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "name": "Ελένη Μαρίνου",
+        "summary": "Γράφει για τα νησιά εδώ και δέκα χρόνια.",
+        "jobTitle": "Επιμελήτρια ταξιδιών",
+        "alternateName": "Eleni Marinou"
+      }
+    },
+    {
+      "id": 77,
+      "type": "author",
+      "slug": "eleni-marinou",
+      "locale": "en",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "9b341661-4d69-4726-b994-ce36efab9e0d",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/en/authors/eleni-marinou",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "bio": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Has written about the islands for ten years.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "name": "Eleni Marinou",
+        "summary": "Has written about the islands for ten years.",
+        "jobTitle": "Travel editor",
+        "alternateName": "Ελένη Μαρίνου"
+      }
+    },
+    {
+      "id": 78,
+      "type": "author",
+      "slug": "nikos-alexiou",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "2a1e7016-40b8-44da-8dd9-d0ad96ebbc65",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/authors/nikos-alexiou",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "bio": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Ψάχνει μικρούς παραγωγούς σε όλη την Ελλάδα.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "name": "Νίκος Αλεξίου",
+        "summary": "Ψάχνει μικρούς παραγωγούς σε όλη την Ελλάδα.",
+        "jobTitle": "Υπεύθυνος προϊόντων",
+        "alternateName": "Nikos Alexiou"
+      }
+    },
+    {
+      "id": 79,
+      "type": "author",
+      "slug": "nikos-alexiou",
+      "locale": "en",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "2a1e7016-40b8-44da-8dd9-d0ad96ebbc65",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/en/authors/nikos-alexiou",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "bio": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Seeks out small producers all over Greece.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "name": "Nikos Alexiou",
+        "summary": "Seeks out small producers all over Greece.",
+        "jobTitle": "Head of products",
+        "alternateName": "Νίκος Αλεξίου"
+      }
+    },
+    {
+      "id": 80,
+      "type": "article_category",
+      "slug": "travel",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "94310ee5-cbec-488b-91a7-35fe7f2cf19d",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/blog/categories/travel",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "title": {
+          "el": "Ταξίδια",
+          "en": "Travel"
+        }
+      }
+    },
+    {
+      "id": 81,
+      "type": "article_category",
+      "slug": "food",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "bfbf25d9-dc26-418e-9c9e-a629a8bad8b9",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/blog/categories/food",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "title": {
+          "el": "Γεύσεις",
+          "en": "Food"
+        }
+      }
+    },
+    {
+      "id": 82,
+      "type": "article_category",
+      "slug": "makers",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "a869fcef-4bb8-4bea-8ffe-c6db785d91a7",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/blog/categories/makers",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "title": {
+          "el": "Δημιουργοί",
+          "en": "Makers"
+        }
+      }
+    },
+    {
+      "id": 83,
+      "type": "article",
+      "slug": "a-week-in-paros",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "91fb9be2-3c1f-4cc8-8fb4-b3805793dff6",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/blog/a-week-in-paros",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "body": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Η Πάρος ισορροπεί ανάμεσα στη ζωντάνια και την ησυχία.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Ξεκινήστε από τη Νάουσα και τελειώστε στη Λεύκες.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "title": "Μια εβδομάδα στην Πάρο",
+        "author": 76,
+        "excerpt": "Παραλίες, χωριά και πού να φάτε.",
+        "categories": [
+          80
+        ]
+      }
+    },
+    {
+      "id": 84,
+      "type": "article",
+      "slug": "a-week-in-paros",
+      "locale": "en",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "91fb9be2-3c1f-4cc8-8fb4-b3805793dff6",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/en/blog/a-week-in-paros",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "body": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Paros balances liveliness and quiet.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Start in Naoussa and end in Lefkes.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "title": "A week in Paros",
+        "author": 77,
+        "excerpt": "Beaches, villages and where to eat.",
+        "categories": [
+          80
+        ]
+      }
+    },
+    {
+      "id": 85,
+      "type": "article",
+      "slug": "santorini-off-season",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "5d46c7ae-a05d-4be3-9649-e57446e2db0d",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/blog/santorini-off-season",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "body": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Λιγότερος κόσμος, ζεστή θάλασσα, τρύγος.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Κλείστε νωρίς — τα καλά καταλύματα γεμίζουν.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "title": "Σαντορίνη εκτός εποχής",
+        "author": 76,
+        "excerpt": "Γιατί ο Οκτώβριος είναι ο καλύτερος μήνας.",
+        "categories": [
+          80
+        ]
+      }
+    },
+    {
+      "id": 86,
+      "type": "article",
+      "slug": "santorini-off-season",
+      "locale": "en",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "5d46c7ae-a05d-4be3-9649-e57446e2db0d",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/en/blog/santorini-off-season",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "body": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Fewer crowds, warm sea, the grape harvest.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Book early — the good places fill up.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "title": "Santorini off season",
+        "author": 77,
+        "excerpt": "Why October is the best month.",
+        "categories": [
+          80
+        ]
+      }
+    },
+    {
+      "id": 87,
+      "type": "article",
+      "slug": "how-to-taste-olive-oil",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "0f131e12-ad06-4082-a498-b2c30e3f8da4",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/blog/how-to-taste-olive-oil",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "body": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Ζεστάνετε το ποτήρι στην παλάμη σας.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Το τσίμπημα στο λαιμό είναι καλό σημάδι.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "title": "Πώς δοκιμάζουμε ελαιόλαδο",
+        "author": 78,
+        "excerpt": "Φρουτώδες, πικρό, πικάντικο: τι σημαίνουν.",
+        "categories": [
+          81
+        ]
+      }
+    },
+    {
+      "id": 88,
+      "type": "article",
+      "slug": "how-to-taste-olive-oil",
+      "locale": "en",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "0f131e12-ad06-4082-a498-b2c30e3f8da4",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/en/blog/how-to-taste-olive-oil",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "body": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Warm the glass in your palm.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "A catch in the throat is a good sign.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "title": "How to taste olive oil",
+        "author": 79,
+        "excerpt": "Fruity, bitter, peppery: what they mean.",
+        "categories": [
+          81
+        ]
+      }
+    },
+    {
+      "id": 89,
+      "type": "article",
+      "slug": "meet-the-sifnos-potters",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "faf0f3ba-dd6c-494d-b174-fbb863808949",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/blog/meet-the-sifnos-potters",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "body": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Το εργαστήριο λειτουργεί από το 1950.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Κάθε μπολ περνά από δύο ψησίματα.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "title": "Γνωρίστε τους κεραμίστες της Σίφνου",
+        "author": 78,
+        "excerpt": "Τρεις γενιές στον τροχό.",
+        "categories": [
+          82
+        ]
+      }
+    },
+    {
+      "id": 90,
+      "type": "article",
+      "slug": "meet-the-sifnos-potters",
+      "locale": "en",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:18.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "faf0f3ba-dd6c-494d-b174-fbb863808949",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/en/blog/meet-the-sifnos-potters",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "body": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "The workshop has run since 1950.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Every bowl is fired twice.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "title": "Meet the Sifnos potters",
+        "author": 79,
+        "excerpt": "Three generations at the wheel.",
+        "categories": [
+          82
+        ]
+      }
+    },
+    {
+      "id": 91,
+      "type": "article",
+      "slug": "honey-harvest-naxos",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:19.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "d70abc81-d4ae-461c-8138-70932ab9f86b",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/blog/honey-harvest-naxos",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "body": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Το θυμάρι ανθίζει τον Ιούνιο.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Ο τρύγος γίνεται νωρίς το πρωί.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "title": "Ο τρύγος του μελιού στη Νάξο",
+        "author": 78,
+        "excerpt": "Μια μέρα με έναν μελισσοκόμο.",
+        "categories": [
+          81
+        ]
+      }
+    },
+    {
+      "id": 92,
+      "type": "article",
+      "slug": "honey-harvest-naxos",
+      "locale": "en",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:19.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "d70abc81-d4ae-461c-8138-70932ab9f86b",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/en/blog/honey-harvest-naxos",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "body": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Thyme flowers in June.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "The harvest starts at dawn.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "title": "The honey harvest on Naxos",
+        "author": 79,
+        "excerpt": "A day with a beekeeper.",
+        "categories": [
+          81
+        ]
+      }
+    },
+    {
+      "id": 93,
+      "type": "article",
+      "slug": "packing-list-for-the-islands",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:19.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "cbe816ab-47d1-409a-b71b-2a8623487607",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/blog/packing-list-for-the-islands",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "body": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Ο αέρας του Αιγαίου είναι δυνατός — πάρτε κάτι ζεστό για το βράδυ.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Αφήστε χώρο για ό,τι θα αγοράσετε.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "title": "Τι να πάρετε μαζί σας στα νησιά",
+        "author": 76,
+        "excerpt": "Λινό, καπέλο και ένα καλό βιβλίο.",
+        "categories": [
+          80
+        ]
+      }
+    },
+    {
+      "id": 94,
+      "type": "article",
+      "slug": "packing-list-for-the-islands",
+      "locale": "en",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:19.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "cbe816ab-47d1-409a-b71b-2a8623487607",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/en/blog/packing-list-for-the-islands",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "body": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "The Aegean wind is strong — bring something warm for the evening.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Leave room for what you will buy.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "title": "What to pack for the islands",
+        "author": 77,
+        "excerpt": "Linen, a hat and a good book.",
+        "categories": [
+          80
+        ]
+      }
+    },
+    {
+      "id": 95,
+      "type": "answer_category",
+      "slug": "orders",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:19.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "5fea5805-b89f-465c-be13-3d6f740c49ec",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/faq/categories/orders",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "title": {
+          "el": "Παραγγελίες",
+          "en": "Orders"
+        }
+      }
+    },
+    {
+      "id": 96,
+      "type": "answer_category",
+      "slug": "stays",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:19.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "f7a9589a-7f5b-456c-aa91-826be603c671",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/faq/categories/stays",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "title": {
+          "el": "Διαμονή",
+          "en": "Stays"
+        }
+      }
+    },
+    {
+      "id": 97,
+      "type": "answer",
+      "slug": "how-long-does-delivery-take",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:19.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "ff1d420d-1a1a-4c2b-97a2-d3cf34c61c74",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/faq/how-long-does-delivery-take",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "body": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "1–3 εργάσιμες ημέρες σε όλη την Ελλάδα.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "question": "Πόσο χρόνο παίρνει η αποστολή;",
+        "categories": [
+          95
+        ],
+        "shortAnswer": "1–3 εργάσιμες ημέρες σε όλη την Ελλάδα."
+      }
+    },
+    {
+      "id": 98,
+      "type": "answer",
+      "slug": "how-long-does-delivery-take",
+      "locale": "en",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:19.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "ff1d420d-1a1a-4c2b-97a2-d3cf34c61c74",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/en/faq/how-long-does-delivery-take",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "body": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "1–3 working days anywhere in Greece.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "question": "How long does delivery take?",
+        "categories": [
+          95
+        ],
+        "shortAnswer": "1–3 working days anywhere in Greece."
+      }
+    },
+    {
+      "id": 99,
+      "type": "answer",
+      "slug": "is-shipping-free",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:19.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "5478bf07-51a3-45b4-ab9d-e7f3d45d7f01",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/faq/is-shipping-free",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "body": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Ναι, για παραγγελίες άνω των 60 €.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "question": "Υπάρχει δωρεάν αποστολή;",
+        "categories": [
+          95
+        ],
+        "shortAnswer": "Ναι, για παραγγελίες άνω των 60 €."
+      }
+    },
+    {
+      "id": 100,
+      "type": "answer",
+      "slug": "is-shipping-free",
+      "locale": "en",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:19.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "5478bf07-51a3-45b4-ab9d-e7f3d45d7f01",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/en/faq/is-shipping-free",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "body": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Yes, on orders over €60.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "question": "Is shipping free?",
+        "categories": [
+          95
+        ],
+        "shortAnswer": "Yes, on orders over €60."
+      }
+    },
+    {
+      "id": 101,
+      "type": "answer",
+      "slug": "can-i-return-an-item",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:19.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "6dbf80c5-b9c2-4c6b-8d95-4cfd35542589",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/faq/can-i-return-an-item",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "body": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Μέσα σε 14 ημέρες από την παραλαβή, αχρησιμοποίητο.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "question": "Μπορώ να επιστρέψω ένα προϊόν;",
+        "categories": [
+          95
+        ],
+        "shortAnswer": "Μέσα σε 14 ημέρες από την παραλαβή, αχρησιμοποίητο."
+      }
+    },
+    {
+      "id": 102,
+      "type": "answer",
+      "slug": "can-i-return-an-item",
+      "locale": "en",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:19.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "6dbf80c5-b9c2-4c6b-8d95-4cfd35542589",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/en/faq/can-i-return-an-item",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "body": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Within 14 days of delivery, unused.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "question": "Can I return an item?",
+        "categories": [
+          95
+        ],
+        "shortAnswer": "Within 14 days of delivery, unused."
+      }
+    },
+    {
+      "id": 103,
+      "type": "answer",
+      "slug": "how-do-i-pay",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:19.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "2d0201b0-b07e-46cf-9769-c5d5e2211a22",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/faq/how-do-i-pay",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "body": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Με τραπεζική μεταφορά ή αντικαταβολή.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "question": "Πώς πληρώνω;",
+        "categories": [
+          95
+        ],
+        "shortAnswer": "Με τραπεζική μεταφορά ή αντικαταβολή."
+      }
+    },
+    {
+      "id": 104,
+      "type": "answer",
+      "slug": "how-do-i-pay",
+      "locale": "en",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:19.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "2d0201b0-b07e-46cf-9769-c5d5e2211a22",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/en/faq/how-do-i-pay",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "body": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "By bank transfer or cash on delivery.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "question": "How do I pay?",
+        "categories": [
+          95
+        ],
+        "shortAnswer": "By bank transfer or cash on delivery."
+      }
+    },
+    {
+      "id": 105,
+      "type": "answer",
+      "slug": "how-does-booking-work",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:19.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "5302397c-ed03-4ccc-a33a-e82e2ea71674",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/faq/how-does-booking-work",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "body": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Στέλνετε αίτημα, το επιβεβαιώνουμε και σας στέλνουμε σύνδεσμο για την προκαταβολή.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "question": "Πώς γίνεται η κράτηση;",
+        "categories": [
+          96
+        ],
+        "shortAnswer": "Στέλνετε αίτημα, το επιβεβαιώνουμε και σας στέλνουμε σύνδεσμο για την προκαταβολή."
+      }
+    },
+    {
+      "id": 106,
+      "type": "answer",
+      "slug": "how-does-booking-work",
+      "locale": "en",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:19.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "5302397c-ed03-4ccc-a33a-e82e2ea71674",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/en/faq/how-does-booking-work",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "body": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "You send a request, we confirm it and send you a link to pay the deposit.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "question": "How does booking work?",
+        "categories": [
+          96
+        ],
+        "shortAnswer": "You send a request, we confirm it and send you a link to pay the deposit."
+      }
+    },
+    {
+      "id": 107,
+      "type": "answer",
+      "slug": "how-much-is-the-deposit",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:19.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "1864a1c5-1784-4ff2-b41e-ed623919c9a7",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/faq/how-much-is-the-deposit",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "body": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "30% της συνολικής τιμής· το υπόλοιπο πριν την άφιξη.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "question": "Πόση είναι η προκαταβολή;",
+        "categories": [
+          96
+        ],
+        "shortAnswer": "30% της συνολικής τιμής· το υπόλοιπο πριν την άφιξη."
+      }
+    },
+    {
+      "id": 108,
+      "type": "answer",
+      "slug": "how-much-is-the-deposit",
+      "locale": "en",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:19.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "1864a1c5-1784-4ff2-b41e-ed623919c9a7",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/en/faq/how-much-is-the-deposit",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "body": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "30% of the total; the rest before arrival.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "question": "How much is the deposit?",
+        "categories": [
+          96
+        ],
+        "shortAnswer": "30% of the total; the rest before arrival."
+      }
+    },
+    {
+      "id": 109,
+      "type": "answer",
+      "slug": "can-i-cancel-my-stay",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:19.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "e8796c5d-d0dc-4210-9be5-e80f6bd931d7",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/faq/can-i-cancel-my-stay",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "body": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Δωρεάν έως 14 ημέρες πριν την άφιξη.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "question": "Μπορώ να ακυρώσω;",
+        "categories": [
+          96
+        ],
+        "shortAnswer": "Δωρεάν έως 14 ημέρες πριν την άφιξη."
+      }
+    },
+    {
+      "id": 110,
+      "type": "answer",
+      "slug": "can-i-cancel-my-stay",
+      "locale": "en",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:19.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "e8796c5d-d0dc-4210-9be5-e80f6bd931d7",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/en/faq/can-i-cancel-my-stay",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "body": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Free of charge up to 14 days before arrival.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "question": "Can I cancel my stay?",
+        "categories": [
+          96
+        ],
+        "shortAnswer": "Free of charge up to 14 days before arrival."
+      }
+    },
+    {
+      "id": 111,
+      "type": "answer",
+      "slug": "do-you-speak-english",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:19.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "1543b684-4106-4e7b-beaf-362e9f75a1ae",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/faq/do-you-speak-english",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "body": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Ναι, απαντάμε σε ελληνικά και αγγλικά.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "question": "Μιλάτε αγγλικά;",
+        "categories": [
+          24
+        ],
+        "shortAnswer": "Ναι, απαντάμε σε ελληνικά και αγγλικά."
+      }
+    },
+    {
+      "id": 112,
+      "type": "answer",
+      "slug": "do-you-speak-english",
+      "locale": "en",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:19.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "1543b684-4106-4e7b-beaf-362e9f75a1ae",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/en/faq/do-you-speak-english",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "body": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Yes, we answer in Greek and English.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "question": "Do you speak English?",
+        "categories": [
+          24
+        ],
+        "shortAnswer": "Yes, we answer in Greek and English."
+      }
+    },
+    {
+      "id": 113,
+      "type": "scenario_category",
+      "slug": "hospitality",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:19.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "437a602f-8982-4413-b80e-92b24f35519d",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/case-studies/categories/hospitality",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "title": {
+          "el": "Φιλοξενία",
+          "en": "Hospitality"
+        }
+      }
+    },
+    {
+      "id": 114,
+      "type": "scenario_category",
+      "slug": "retail",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:19.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "117b3cf3-2d00-45bb-9a3d-e578d19184a1",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/case-studies/categories/retail",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "title": {
+          "el": "Λιανική",
+          "en": "Retail"
+        }
+      }
+    },
+    {
+      "id": 115,
+      "type": "scenario",
+      "slug": "hotel-group-direct-bookings",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:19.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "14a01e2d-2d41-49f0-9225-2be57acc5161",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/case-studies/hotel-group-direct-bookings",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "body": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Ο όμιλος πλήρωνε 18% προμήθεια σε κάθε κράτηση.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Σε μία σεζόν, οι απευθείας κρατήσεις διπλασιάστηκαν.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "title": "Διπλάσιες απευθείας κρατήσεις για ξενοδοχειακό όμιλο",
+        "summary": "Από τις πλατφόρμες στο δικό τους site.",
+        "industry": "Φιλοξενία",
+        "categories": [
+          113
+        ]
+      }
+    },
+    {
+      "id": 116,
+      "type": "scenario",
+      "slug": "hotel-group-direct-bookings",
+      "locale": "en",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:19.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "14a01e2d-2d41-49f0-9225-2be57acc5161",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/en/case-studies/hotel-group-direct-bookings",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "body": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "The group paid 18% commission on every booking.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "In one season, direct bookings doubled.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "title": "Twice the direct bookings for a hotel group",
+        "summary": "From booking platforms to their own site.",
+        "industry": "Hospitality",
+        "categories": [
+          113
+        ]
+      }
+    },
+    {
+      "id": 117,
+      "type": "scenario",
+      "slug": "villa-owner-season-in-six-weeks",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:19.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "c4415cf9-b505-4de4-aa62-bb7c21bf8fe3",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/case-studies/villa-owner-season-in-six-weeks",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "body": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Εποχικές τιμές και κανόνες Σαββάτου-Σαββάτου.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Όλες οι εβδομάδες του Αυγούστου κλείστηκαν μέχρι τον Μάρτιο.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "title": "Γεμάτη σεζόν σε έξι εβδομάδες",
+        "summary": "Τέσσερις βίλες, ένα ημερολόγιο.",
+        "industry": "Ενοικιαζόμενες βίλες",
+        "categories": [
+          113
+        ]
+      }
+    },
+    {
+      "id": 118,
+      "type": "scenario",
+      "slug": "villa-owner-season-in-six-weeks",
+      "locale": "en",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:19.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "c4415cf9-b505-4de4-aa62-bb7c21bf8fe3",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/en/case-studies/villa-owner-season-in-six-weeks",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "body": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Seasonal rates and Saturday-to-Saturday rules.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Every August week was booked by March.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "title": "A full season in six weeks",
+        "summary": "Four villas, one calendar.",
+        "industry": "Villa rentals",
+        "categories": [
+          113
+        ]
+      }
+    },
+    {
+      "id": 119,
+      "type": "scenario",
+      "slug": "olive-oil-producer-goes-online",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:19.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "82cdf570-efeb-4595-8b94-7ca4bae9e260",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/case-studies/olive-oil-producer-goes-online",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "body": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Ένα απλό κατάστημα με τρία προϊόντα.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "400 παραγγελίες τον πρώτο χρόνο.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "title": "Παραγωγός ελαιολάδου πουλά online",
+        "summary": "Από τη λαϊκή σε όλη την Ευρώπη.",
+        "industry": "Τρόφιμα",
+        "categories": [
+          114
+        ]
+      }
+    },
+    {
+      "id": 120,
+      "type": "scenario",
+      "slug": "olive-oil-producer-goes-online",
+      "locale": "en",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:19.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "82cdf570-efeb-4595-8b94-7ca4bae9e260",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/en/case-studies/olive-oil-producer-goes-online",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "body": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "A simple shop with three products.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "400 orders in the first year.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "title": "An olive oil producer goes online",
+        "summary": "From the farmers’ market to all of Europe.",
+        "industry": "Food & drink",
+        "categories": [
+          114
+        ]
+      }
+    },
+    {
+      "id": 121,
+      "type": "scenario",
+      "slug": "ceramics-studio-wholesale",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:19.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "b70ab065-cb91-4379-9ff0-413cb9ef3fc6",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/case-studies/ceramics-studio-wholesale",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "body": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Κάθε χρώμα και μέγεθος με δικό του απόθεμα.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Οι παραγγελίες χονδρικής πλέον έρχονται online.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "title": "Εργαστήριο κεραμικής με χονδρική",
+        "summary": "Παραλλαγές, απόθεμα και καταστήματα-συνεργάτες.",
+        "industry": "Χειροτεχνία",
+        "categories": [
+          114
+        ]
+      }
+    },
+    {
+      "id": 122,
+      "type": "scenario",
+      "slug": "ceramics-studio-wholesale",
+      "locale": "en",
+      "status": "published",
+      "publishedAt": "2026-09-25T18:51:19.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "b70ab065-cb91-4379-9ff0-413cb9ef3fc6",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/en/case-studies/ceramics-studio-wholesale",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "body": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Each colour and size with its own stock.",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Wholesale orders now come in online.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "title": "A ceramics studio adds wholesale",
+        "summary": "Variations, stock and partner shops.",
+        "industry": "Crafts",
+        "categories": [
+          114
         ]
       }
     }
@@ -1024,6 +6640,618 @@
     {
       "fromId": 29,
       "toId": 27,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 34,
+      "toId": 30,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 35,
+      "toId": 30,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 36,
+      "toId": 30,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 37,
+      "toId": 30,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 38,
+      "toId": 30,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 39,
+      "toId": 30,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 40,
+      "toId": 31,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 41,
+      "toId": 31,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 42,
+      "toId": 31,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 43,
+      "toId": 31,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 44,
+      "toId": 31,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 45,
+      "toId": 31,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 46,
+      "toId": 32,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 47,
+      "toId": 32,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 48,
+      "toId": 32,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 49,
+      "toId": 32,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 50,
+      "toId": 32,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 51,
+      "toId": 32,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 52,
+      "toId": 33,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 53,
+      "toId": 33,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 54,
+      "toId": 33,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 55,
+      "toId": 33,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 56,
+      "toId": 33,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 57,
+      "toId": 33,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 66,
+      "toId": 58,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 66,
+      "toId": 60,
+      "fieldKey": "types",
+      "position": 0
+    },
+    {
+      "fromId": 66,
+      "toId": 63,
+      "fieldKey": "departures",
+      "position": 0
+    },
+    {
+      "fromId": 67,
+      "toId": 58,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 67,
+      "toId": 60,
+      "fieldKey": "types",
+      "position": 0
+    },
+    {
+      "fromId": 67,
+      "toId": 63,
+      "fieldKey": "departures",
+      "position": 0
+    },
+    {
+      "fromId": 68,
+      "toId": 58,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 68,
+      "toId": 60,
+      "fieldKey": "types",
+      "position": 0
+    },
+    {
+      "fromId": 68,
+      "toId": 65,
+      "fieldKey": "departures",
+      "position": 0
+    },
+    {
+      "fromId": 69,
+      "toId": 58,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 69,
+      "toId": 60,
+      "fieldKey": "types",
+      "position": 0
+    },
+    {
+      "fromId": 69,
+      "toId": 65,
+      "fieldKey": "departures",
+      "position": 0
+    },
+    {
+      "fromId": 70,
+      "toId": 59,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 70,
+      "toId": 61,
+      "fieldKey": "types",
+      "position": 0
+    },
+    {
+      "fromId": 70,
+      "toId": 64,
+      "fieldKey": "departures",
+      "position": 0
+    },
+    {
+      "fromId": 71,
+      "toId": 59,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 71,
+      "toId": 61,
+      "fieldKey": "types",
+      "position": 0
+    },
+    {
+      "fromId": 71,
+      "toId": 64,
+      "fieldKey": "departures",
+      "position": 0
+    },
+    {
+      "fromId": 72,
+      "toId": 59,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 72,
+      "toId": 62,
+      "fieldKey": "types",
+      "position": 0
+    },
+    {
+      "fromId": 72,
+      "toId": 63,
+      "fieldKey": "departures",
+      "position": 0
+    },
+    {
+      "fromId": 73,
+      "toId": 59,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 73,
+      "toId": 62,
+      "fieldKey": "types",
+      "position": 0
+    },
+    {
+      "fromId": 73,
+      "toId": 63,
+      "fieldKey": "departures",
+      "position": 0
+    },
+    {
+      "fromId": 74,
+      "toId": 59,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 74,
+      "toId": 62,
+      "fieldKey": "types",
+      "position": 0
+    },
+    {
+      "fromId": 74,
+      "toId": 65,
+      "fieldKey": "departures",
+      "position": 0
+    },
+    {
+      "fromId": 75,
+      "toId": 59,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 75,
+      "toId": 62,
+      "fieldKey": "types",
+      "position": 0
+    },
+    {
+      "fromId": 75,
+      "toId": 65,
+      "fieldKey": "departures",
+      "position": 0
+    },
+    {
+      "fromId": 83,
+      "toId": 76,
+      "fieldKey": "author",
+      "position": 0
+    },
+    {
+      "fromId": 83,
+      "toId": 80,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 84,
+      "toId": 77,
+      "fieldKey": "author",
+      "position": 0
+    },
+    {
+      "fromId": 84,
+      "toId": 80,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 85,
+      "toId": 76,
+      "fieldKey": "author",
+      "position": 0
+    },
+    {
+      "fromId": 85,
+      "toId": 80,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 86,
+      "toId": 77,
+      "fieldKey": "author",
+      "position": 0
+    },
+    {
+      "fromId": 86,
+      "toId": 80,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 87,
+      "toId": 78,
+      "fieldKey": "author",
+      "position": 0
+    },
+    {
+      "fromId": 87,
+      "toId": 81,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 88,
+      "toId": 79,
+      "fieldKey": "author",
+      "position": 0
+    },
+    {
+      "fromId": 88,
+      "toId": 81,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 89,
+      "toId": 78,
+      "fieldKey": "author",
+      "position": 0
+    },
+    {
+      "fromId": 89,
+      "toId": 82,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 90,
+      "toId": 79,
+      "fieldKey": "author",
+      "position": 0
+    },
+    {
+      "fromId": 90,
+      "toId": 82,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 91,
+      "toId": 78,
+      "fieldKey": "author",
+      "position": 0
+    },
+    {
+      "fromId": 91,
+      "toId": 81,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 92,
+      "toId": 79,
+      "fieldKey": "author",
+      "position": 0
+    },
+    {
+      "fromId": 92,
+      "toId": 81,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 93,
+      "toId": 76,
+      "fieldKey": "author",
+      "position": 0
+    },
+    {
+      "fromId": 93,
+      "toId": 80,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 94,
+      "toId": 77,
+      "fieldKey": "author",
+      "position": 0
+    },
+    {
+      "fromId": 94,
+      "toId": 80,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 97,
+      "toId": 95,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 98,
+      "toId": 95,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 99,
+      "toId": 95,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 100,
+      "toId": 95,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 101,
+      "toId": 95,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 102,
+      "toId": 95,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 103,
+      "toId": 95,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 104,
+      "toId": 95,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 105,
+      "toId": 96,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 106,
+      "toId": 96,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 107,
+      "toId": 96,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 108,
+      "toId": 96,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 109,
+      "toId": 96,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 110,
+      "toId": 96,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 111,
+      "toId": 24,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 112,
+      "toId": 24,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 115,
+      "toId": 113,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 116,
+      "toId": 113,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 117,
+      "toId": 113,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 118,
+      "toId": 113,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 119,
+      "toId": 114,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 120,
+      "toId": 114,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 121,
+      "toId": 114,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 122,
+      "toId": 114,
       "fieldKey": "categories",
       "position": 0
     }

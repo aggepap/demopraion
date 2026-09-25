@@ -33,7 +33,8 @@
     "db:migrate-booking-facets": "tsx src/cms/db/seeds/cli/migrate-booking-facets.ts",
     "docs:templates": "tsx --tsconfig ./tsconfig.test.json scripts/generate-templates.ts",
     "locks": "node --env-file-if-exists=.env --env-file-if-exists=.env.local src/cms/realtime/lock-server.mjs",
-    "db:seed-site": "tsx --tsconfig ./tsconfig.seed.json src/site-seed/cli.ts"
+    "db:seed-site": "tsx --tsconfig ./tsconfig.seed.json src/site-seed/cli.ts",
+    "db:seed-demo": "tsx --tsconfig ./tsconfig.seed.json src/site-seed/demo.ts"
   },
   "dependencies": {
     "@azure/identity": "^4.13.1",
