@@ -1,0 +1,1031 @@
+{
+  "generatedAt": "2026-09-25T18:41:52.530Z",
+  "documents": [
+    {
+      "id": 1,
+      "type": "page",
+      "slug": "home",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T16:20:04.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "9359e886-b7fc-411e-95e6-c0d896b97d05",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "body": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Καλώς ήρθατε στο Demo Site.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "title": "Demo Site"
+      }
+    },
+    {
+      "id": 2,
+      "type": "page",
+      "slug": "home",
+      "locale": "en",
+      "status": "published",
+      "publishedAt": "2026-09-25T16:20:04.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "9359e886-b7fc-411e-95e6-c0d896b97d05",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/en",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "body": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Welcome to Demo Site.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "title": "Demo Site"
+      }
+    },
+    {
+      "id": 3,
+      "type": "page",
+      "slug": "about",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T16:20:04.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "e4669b40-eec4-40c7-abbf-d9b5fa4bc923",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/about",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "body": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Προσωρινό κείμενο — πείτε στους επισκέπτες ποιοι είστε και τι κάνετε.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "title": "Σχετικά με εμάς"
+      }
+    },
+    {
+      "id": 4,
+      "type": "page",
+      "slug": "about",
+      "locale": "en",
+      "status": "published",
+      "publishedAt": "2026-09-25T16:20:04.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "e4669b40-eec4-40c7-abbf-d9b5fa4bc923",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/en/about",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "body": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Placeholder — tell visitors who you are and what you do.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "title": "About us"
+      }
+    },
+    {
+      "id": 5,
+      "type": "page",
+      "slug": "contact",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T16:20:04.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "89aa2882-c347-4199-af87-20230ac3ac08",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/contact",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "body": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Προσωρινό κείμενο — μία-δύο γραμμές πάνω από τη φόρμα επικοινωνίας.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "title": "Επικοινωνία"
+      }
+    },
+    {
+      "id": 6,
+      "type": "page",
+      "slug": "contact",
+      "locale": "en",
+      "status": "published",
+      "publishedAt": "2026-09-25T16:20:04.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "89aa2882-c347-4199-af87-20230ac3ac08",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/en/contact",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "body": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Placeholder — a line or two above the contact form.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "title": "Contact"
+      }
+    },
+    {
+      "id": 7,
+      "type": "page",
+      "slug": "privacy",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T16:20:04.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "1d8e6bb6-1a3f-41b8-93aa-1ef9a49bf437",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/privacy",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "body": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Προσωρινό κείμενο — αντικαταστήστε το με την πολιτική απορρήτου πριν το λανσάρισμα.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "title": "Πολιτική απορρήτου"
+      }
+    },
+    {
+      "id": 8,
+      "type": "page",
+      "slug": "privacy",
+      "locale": "en",
+      "status": "published",
+      "publishedAt": "2026-09-25T16:20:04.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "1d8e6bb6-1a3f-41b8-93aa-1ef9a49bf437",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/en/privacy",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "body": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Placeholder — replace with your privacy policy before launch.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "title": "Privacy policy"
+      }
+    },
+    {
+      "id": 9,
+      "type": "page",
+      "slug": "terms",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T16:20:04.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "a5fb798e-ac73-44aa-acc5-bc50dff98c78",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/terms",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "body": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Προσωρινό κείμενο — αντικαταστήστε το με τους όρους χρήσης πριν το λανσάρισμα.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "title": "Όροι χρήσης"
+      }
+    },
+    {
+      "id": 10,
+      "type": "page",
+      "slug": "terms",
+      "locale": "en",
+      "status": "published",
+      "publishedAt": "2026-09-25T16:20:04.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "a5fb798e-ac73-44aa-acc5-bc50dff98c78",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/en/terms",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "body": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Placeholder — replace with your terms before launch.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "title": "Terms of use"
+      }
+    },
+    {
+      "id": 11,
+      "type": "category",
+      "slug": "sample-category",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T16:20:04.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "8b8ce59b-48fc-4893-aff3-92d3d1fe2612",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/shop/category/sample-category",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "title": {
+          "el": "Δείγμα κατηγορίας",
+          "en": "Sample category"
+        }
+      }
+    },
+    {
+      "id": 12,
+      "type": "product",
+      "slug": "sample-product",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T16:20:04.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "cc357014-d03c-4cf7-a096-80ed47fdb65f",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/shop/sample-product",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "price": 10,
+        "title": "Δείγμα προϊόντος",
+        "condition": "new",
+        "categories": [
+          11
+        ],
+        "visibility": "visible",
+        "weightUnit": "kg",
+        "productType": "standard",
+        "availability": "in-stock",
+        "dimensionUnit": "cm"
+      }
+    },
+    {
+      "id": 13,
+      "type": "product",
+      "slug": "sample-product",
+      "locale": "en",
+      "status": "published",
+      "publishedAt": "2026-09-25T16:20:04.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "cc357014-d03c-4cf7-a096-80ed47fdb65f",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/en/shop/sample-product",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "price": 10,
+        "title": "Sample product",
+        "condition": "new",
+        "categories": [
+          11
+        ],
+        "visibility": "visible",
+        "weightUnit": "kg",
+        "productType": "standard",
+        "availability": "in-stock",
+        "dimensionUnit": "cm"
+      }
+    },
+    {
+      "id": 14,
+      "type": "booking_category",
+      "slug": "sample",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T16:20:04.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "700bfea0-86e8-4d09-8db5-313f1087899d",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": null,
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "title": {
+          "el": "Δείγμα κατηγορίας",
+          "en": "Sample category"
+        }
+      }
+    },
+    {
+      "id": 15,
+      "type": "vessel_type",
+      "slug": "sample",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T16:20:04.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "ffe33409-a777-4787-aefb-c1a0f6d17bd2",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": null,
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "title": {
+          "el": "Δείγμα τύπου",
+          "en": "Sample type"
+        }
+      }
+    },
+    {
+      "id": 16,
+      "type": "departure_location",
+      "slug": "sample",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T16:20:04.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "3c156e53-2ce8-4713-9649-34e471d9d99c",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": null,
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "title": {
+          "el": "Δείγμα τοποθεσίας",
+          "en": "Sample location"
+        }
+      }
+    },
+    {
+      "id": 17,
+      "type": "booking",
+      "slug": "sample-experience",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T16:20:04.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "4f334919-85f9-48b5-84f6-93670113317c",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/booking/sample-experience",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "kind": "stay",
+        "title": "Δείγμα κράτησης",
+        "minNights": 1,
+        "maxPersons": 999,
+        "minPersons": 1,
+        "bookingMode": "inherit",
+        "childMaxAge": 12,
+        "pricingMode": "multiply",
+        "baseOccupancy": 2,
+        "allocationMode": "shared"
+      }
+    },
+    {
+      "id": 18,
+      "type": "booking",
+      "slug": "sample-experience",
+      "locale": "en",
+      "status": "published",
+      "publishedAt": "2026-09-25T16:20:04.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "4f334919-85f9-48b5-84f6-93670113317c",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/en/booking/sample-experience",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "kind": "stay",
+        "title": "Sample experience",
+        "minNights": 1,
+        "maxPersons": 999,
+        "minPersons": 1,
+        "bookingMode": "inherit",
+        "childMaxAge": 12,
+        "pricingMode": "multiply",
+        "baseOccupancy": 2,
+        "allocationMode": "shared"
+      }
+    },
+    {
+      "id": 19,
+      "type": "author",
+      "slug": "sample-author",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T16:20:04.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "ce82c324-4c39-44a1-a456-916ba2f0811f",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/authors/sample-author",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "bio": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Προσωρινό κείμενο βιογραφικού.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "name": "Δείγμα συντάκτη",
+        "summary": "Προσωρινό βιογραφικό.",
+        "jobTitle": "Συντάκτης"
+      }
+    },
+    {
+      "id": 20,
+      "type": "author",
+      "slug": "sample-author",
+      "locale": "en",
+      "status": "published",
+      "publishedAt": "2026-09-25T16:20:04.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "ce82c324-4c39-44a1-a456-916ba2f0811f",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/en/authors/sample-author",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "bio": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Placeholder biography.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "name": "Sample author",
+        "summary": "A placeholder biography.",
+        "jobTitle": "Writer"
+      }
+    },
+    {
+      "id": 21,
+      "type": "article_category",
+      "slug": "general",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T16:20:04.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "42c2e649-4c82-4889-a09d-272e2d5deaa3",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/blog/categories/general",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "title": {
+          "el": "Γενικά",
+          "en": "General"
+        },
+        "description": {
+          "el": "Προσωρινή κατηγορία.",
+          "en": "A placeholder category."
+        }
+      }
+    },
+    {
+      "id": 22,
+      "type": "article",
+      "slug": "hello-world",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T16:20:04.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "66139cf0-9d4f-407e-a5c0-0ae217cfc0b8",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/blog/hello-world",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "body": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Προσωρινό κείμενο άρθρου.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "title": "Πρώτο άρθρο",
+        "author": 19,
+        "excerpt": "Προσωρινό άρθρο.",
+        "categories": [
+          21
+        ]
+      }
+    },
+    {
+      "id": 23,
+      "type": "article",
+      "slug": "hello-world",
+      "locale": "en",
+      "status": "published",
+      "publishedAt": "2026-09-25T16:20:04.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "66139cf0-9d4f-407e-a5c0-0ae217cfc0b8",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/en/blog/hello-world",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "body": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Placeholder article body.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "title": "First article",
+        "author": 20,
+        "excerpt": "A placeholder article.",
+        "categories": [
+          21
+        ]
+      }
+    },
+    {
+      "id": 24,
+      "type": "answer_category",
+      "slug": "general",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T16:20:04.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "c8b475d3-3ad8-4e96-8f64-14932c09ba8a",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/faq/categories/general",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "title": {
+          "el": "Γενικά",
+          "en": "General"
+        },
+        "description": {
+          "el": "Προσωρινή κατηγορία.",
+          "en": "A placeholder category."
+        }
+      }
+    },
+    {
+      "id": 25,
+      "type": "answer",
+      "slug": "sample-question",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T16:20:04.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "6c8c778d-f777-42c8-ae41-d76bf5a76913",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/faq/sample-question",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "body": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Προσωρινή αναλυτική απάντηση.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "question": "Δείγμα ερώτησης;",
+        "categories": [
+          24
+        ],
+        "shortAnswer": "Προσωρινή σύντομη απάντηση."
+      }
+    },
+    {
+      "id": 26,
+      "type": "answer",
+      "slug": "sample-question",
+      "locale": "en",
+      "status": "published",
+      "publishedAt": "2026-09-25T16:20:04.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "6c8c778d-f777-42c8-ae41-d76bf5a76913",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/en/faq/sample-question",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "body": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "A placeholder full answer.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "question": "A sample question?",
+        "categories": [
+          24
+        ],
+        "shortAnswer": "A placeholder short answer."
+      }
+    },
+    {
+      "id": 27,
+      "type": "scenario_category",
+      "slug": "general",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T16:20:04.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "e309250f-2ab5-4496-8346-75fc5920c7d3",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/case-studies/categories/general",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "title": {
+          "el": "Γενικά",
+          "en": "General"
+        },
+        "description": {
+          "el": "Προσωρινή κατηγορία.",
+          "en": "A placeholder category."
+        }
+      }
+    },
+    {
+      "id": 28,
+      "type": "scenario",
+      "slug": "sample-case-study",
+      "locale": "el",
+      "status": "published",
+      "publishedAt": "2026-09-25T16:20:04.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "e46d6286-b7b8-4153-9f74-56a489395b07",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/case-studies/sample-case-study",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "body": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Προσωρινό κείμενο.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "title": "Δείγμα μελέτης",
+        "summary": "Προσωρινή περίληψη.",
+        "industry": "Κλάδος",
+        "categories": [
+          27
+        ]
+      }
+    },
+    {
+      "id": 29,
+      "type": "scenario",
+      "slug": "sample-case-study",
+      "locale": "en",
+      "status": "published",
+      "publishedAt": "2026-09-25T16:20:04.000Z",
+      "scheduledFor": null,
+      "modifiedAt": null,
+      "translationGroupId": "e46d6286-b7b8-4153-9f74-56a489395b07",
+      "metaTitle": null,
+      "metaDescription": null,
+      "canonicalPath": "/en/case-studies/sample-case-study",
+      "noindex": false,
+      "nofollow": false,
+      "includeInSitemap": true,
+      "ogImageUuid": null,
+      "data": {
+        "body": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Placeholder body.",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "title": "Sample case study",
+        "summary": "A placeholder summary.",
+        "industry": "Industry",
+        "categories": [
+          27
+        ]
+      }
+    }
+  ],
+  "relations": [
+    {
+      "fromId": 12,
+      "toId": 11,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 13,
+      "toId": 11,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 22,
+      "toId": 19,
+      "fieldKey": "author",
+      "position": 0
+    },
+    {
+      "fromId": 22,
+      "toId": 21,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 23,
+      "toId": 20,
+      "fieldKey": "author",
+      "position": 0
+    },
+    {
+      "fromId": 23,
+      "toId": 21,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 25,
+      "toId": 24,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 26,
+      "toId": 24,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 28,
+      "toId": 27,
+      "fieldKey": "categories",
+      "position": 0
+    },
+    {
+      "fromId": 29,
+      "toId": 27,
+      "fieldKey": "categories",
+      "position": 0
+    }
+  ]
+}
