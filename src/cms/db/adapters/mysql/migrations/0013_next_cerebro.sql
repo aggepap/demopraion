@@ -1,0 +1,1 @@
+ALTER TABLE `reservations` ADD `payment_started_at` timestamp;

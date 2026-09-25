@@ -1,0 +1,133 @@
+import {
+  Anchor,
+  ArrowLeft,
+  Briefcase,
+  Calendar,
+  CalendarCheck,
+  Check,
+  ChevronDown,
+  ChevronRight,
+  ChevronsDown,
+  ChevronsUp,
+  ChevronUp,
+  Code,
+  Cookie,
+  Copy,
+  Eye,
+  EyeOff,
+  ExternalLink,
+  FileEdit,
+  FileText,
+  FolderTree,
+  GripVertical,
+  History,
+  Image as ImageIcon,
+  Inbox,
+  LayoutDashboard,
+  Mail,
+  MailWarning,
+  MapPin,
+  Lock,
+  LogOut,
+  Menu,
+  MessageCircleQuestion,
+  Newspaper,
+  Package,
+  Plus,
+  RefreshCw,
+  Ruler,
+  Sailboat,
+  Search,
+  Settings,
+  ShieldCheck,
+  ShoppingBag,
+  Star,
+  Tag,
+  Tags,
+  Ticket,
+  Trash2,
+  Truck,
+  Upload,
+  UserPen,
+  Users,
+  X,
+  type LucideIcon,
+} from 'lucide-react';
+
+import { cn } from './cn';
+import type { IconName } from './icon-names';
+
+export type { IconName } from './icon-names';
+
+/**
+ * Render a lucide icon by its kebab-case name (as stored in `collection.icon`),
+ * plus the fixed set the admin chrome/forms use. Only the names in
+ * `icon-names.ts` exist — `IconName` is that list, so an unknown name is a type
+ * error. A value that still gets through at runtime (untyped data) falls back
+ * to a generic document icon so the UI never throws.
+ */
+const ICONS: Record<IconName, LucideIcon> = {
+  // Collection icons (from site.config.ts)
+  'user-pen': UserPen,
+  tags: Tags,
+  tag: Tag,
+  newspaper: Newspaper,
+  'message-circle-question': MessageCircleQuestion,
+  briefcase: Briefcase,
+  sailboat: Sailboat,
+  anchor: Anchor,
+  'map-pin': MapPin,
+  'folder-tree': FolderTree,
+  'file-text': FileText,
+  'shopping-bag': ShoppingBag,
+  // Tools + chrome
+  dashboard: LayoutDashboard,
+  submissions: Inbox,
+  seo: Search,
+  users: Users,
+  roles: ShieldCheck,
+  audit: History,
+  media: ImageIcon,
+  cookies: Cookie,
+  code: Code,
+  settings: Settings,
+  // Actions / form
+  plus: Plus,
+  orders: Package,
+  reviews: Star,
+  abandoned: MailWarning,
+  newsletter: Mail,
+  bookings: CalendarCheck,
+  calendar: Calendar,
+  ruler: Ruler,
+  shipping: Truck,
+  coupons: Ticket,
+  'file-edit': FileEdit,
+  'refresh-cw': RefreshCw,
+  trash: Trash2,
+  copy: Copy,
+  grip: GripVertical,
+  'chevron-down': ChevronDown,
+  'chevron-up': ChevronUp,
+  'chevrons-up': ChevronsUp,
+  'chevrons-down': ChevronsDown,
+  'chevron-right': ChevronRight,
+  eye: Eye,
+  "eye-off": EyeOff,
+  menu: Menu,
+  x: X,
+  upload: Upload,
+  check: Check,
+  search: Search,
+  lock: Lock,
+  logout: LogOut,
+  external: ExternalLink,
+  'arrow-left': ArrowLeft,
+  image: ImageIcon,
+};
+
+export function Icon({ name, className, size = 16 }: { name: IconName; className?: string; size?: number }) {
+  // Typed callers cannot miss; the fallback is for untyped data at runtime.
+  const Cmp = (ICONS as Partial<Record<string, LucideIcon>>)[name] ?? FileEdit;
+  return <Cmp width={size} height={size} className={cn('shrink-0', className)} aria-hidden />;
+}

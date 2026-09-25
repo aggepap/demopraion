@@ -1,0 +1,29 @@
+# This machine has `core.autocrlf=true`, and without this file git applied
+# line-ending conversion to four QA screenshots on their way into a commit —
+# stripping CR bytes from inside the PNG payload, so the stored blob was several
+# hundred bytes shorter than the file on disk and no longer a decodable image.
+# Git's own text/binary heuristic had not protected them.
+#
+# `text=auto` keeps the normal LF-in-the-repo behaviour for source, and every
+# format below is declared binary so its bytes are stored exactly as they are.
+* text=auto
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.avif binary
+*.ico binary
+*.svgz binary
+*.pdf binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.otf binary
+*.eot binary
+*.zip binary
+*.gz binary
+*.mp4 binary
+*.webm binary
+*.db binary

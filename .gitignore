@@ -1,0 +1,159 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+# The rule above is anchored to the root, so the audit renderer's own
+# dependencies — 200MB of Playwright and Express, installed to run it locally —
+# were showing up as untracked files waiting to be committed by accident.
+seo-audit-tool/renderer/node_modules/
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# CMS update packages built by `npm run cms:release` — shipped, not committed
+/releases/
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+!.env.example
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# claude code — local machine settings
+.claude/settings.local.json
+
+# markdown — dev notes / working docs only (README, CLAUDE, handoffs,
+# templates, copy/pricing change logs). The website ships no .md; all
+# content is .mdx, which this pattern does NOT match. Kept out of the
+# repo so loose working files never get committed again.
+*.md
+
+# Exception: the audit engine documents itself.
+#
+# These are not loose notes. They are the only record of how that subsystem is
+# installed on a server, why each of its 33 checks is written the way it is, and
+# what its tests are guarding — and the engine now runs in two places that have
+# to stay in agreement. Kept out of the repo, that knowledge lives nowhere.
+#
+# The engine never reaches production regardless: `.github/workflows/deploy.yml`
+# removes `seo-audit-tool/` before the deploy branch is built, so nothing here
+# adds weight to the Plesk docroot.
+!seo-audit-tool/**/*.md
+# Claude Code skills are instructions, not dev notes — version them.
+!.claude/skills/**/*.md
+# The entry point for agents and people opening the base.
+!/START_HERE.md
+# Sources of the end-user PDF guides (docs/user-guides/_build rebuilds them).
+!/docs/user-guides/src/*.md
+# Technical manuals for developers working on the CMS.
+!/docs/dev-guides/*.md
+
+# audit / analytics exports — Google Search Console + Screaming Frog reports.
+# Working artifacts, not build inputs; they hold crawl/analytics data and must
+# never ride the deploy branch into the Plesk docroot. Scoped to the report
+# folders and GSC's export naming so the tracked logo.zip is left untouched.
+google search console report/
+frog reports/
+praion.gr-*.zip
+
+# CMS local media uploads
+.data/
+
+# Local database snapshots — never committed.
+backups/
+
+# Build dirs of the other instances that share this checkout: the agents' dev
+# server (npm run dev:qa) and a production build run with NEXT_DIST_DIR set, so
+# verifying a build never disturbs a running dev server. tsconfig.json already
+# lists their generated route types.
+.next-qa/
+.next-build/
+.next-wrongdb-test/
+
+# QA harness — the suite's source is committed, its output and local state
+# is not: installed deps, the studio's SQLite, captured screenshots/videos,
+# Playwright's own report dirs, and the saved browser sessions (real
+# credentials/cookies for the local admin).
+qa/node_modules/
+qa/artifacts/
+qa/playwright-report/
+qa/test-results/
+qa/results.json
+qa/.auth/
+
+# The Agent Studio app is delivered by its bundle rather than authored here, so
+# most of it stays out. Two exceptions:
+#
+#   data/     the reports it wrote — the record of what was audited.
+#   server/   the part that actually runs the agents, and the part we now patch.
+#             A fix there stopped the harness reporting "no confirmed bugs" for a
+#             run that never happened (F-049). Leaving that untracked would lose
+#             it on the next machine and quietly restore a harness that reports
+#             success for zero work. Once we maintain a file, it belongs in git.
+#
+# `web/` and `node_modules/` are still the bundle's business.
+qa/studio/*
+!qa/studio/data/
+!qa/studio/server/
+qa/studio/data/studio.db
+qa/studio/node_modules/
+
+# Local-only downloads: the agent-studio drop and a pulled-down env file
+# (the latter holds live secrets — never commit it).
+agent-studio-bundle.zip
+env.download
+aegeanvip-travel-experiences-made-memorable.code-snippets(1).php
+.history/
+# QA harness — the vendored "Agent Studio" bundle. Its source is committed on
+# the backend-v2 branch, not here, so on this branch the folder is nothing but
+# leftover local state: a 265M node_modules, the studio's SQLite, built web/
+# assets and captured Playwright output. Switching branches cannot clean those
+# (git only removes files it tracks), so without this they surface as ~20k
+# phantom untracked files on every branch that lacks backend-v2's ignore block.
+/qa/
+.history/
+.data/
+
+# SEO/AEO audit engine — the build artefacts only.
+#
+# The engine itself is TRACKED: it is the source of the `deploy-api` branch, so
+# a check class that git cannot see is a check that never reaches the server.
+# What must stay out is everything the tooling generates inside that folder —
+# a full Laravel install's vendor/, the renderer's node_modules, and any .env
+# a local run leaves behind. This used to be a blanket `seo-audit-tool/`, which
+# ignored new engine sources just as effectively as it ignored the junk.
+seo-audit-tool/**/vendor/
+seo-audit-tool/**/node_modules/
+seo-audit-tool/**/.env
+seo-audit-tool/laravel/storage/
+seo-audit-tool/laravel/bootstrap/cache/
+seo-audit-tool/**/*.log

@@ -1,0 +1,71 @@
+/*
+ * Styles for the global 404 fallback (`src/app/not-found.tsx`).
+ *
+ * Lives as a CSS module rather than inline styles so the page renders
+ * under a strict Content-Security-Policy without needing
+ * `style-src 'unsafe-inline'`. The not-found route owns its own
+ * `<html>`/`<body>` (it's rendered outside the `[locale]/layout.tsx`
+ * chain), so Tailwind isn't available here; this module keeps the
+ * styling self-contained without dragging in the rest of globals.css.
+ *
+ * Brand tokens are duplicated as literal hex values intentionally —
+ * the file must be loadable in isolation when the locale layout never
+ * mounts.
+ */
+
+.body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #F5F5F2;
+  color: #1A2332;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.main {
+  text-align: center;
+  padding: 2rem;
+}
+
+.eyebrow {
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  /*
+    A darker shade of the same brand gold. The brand value #B8862F reaches only
+    3.0:1 on this page's #F5F5F2 background, and at 0.75rem uppercase — small,
+    widely letter-spaced text — that is the hardest case to read, not the
+    easiest. This keeps the hue and clears the 4.5:1 minimum at 5.1:1.
+  */
+  color: #8A6220;
+  margin: 0 0 1rem;
+}
+
+.heading {
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 600;
+  margin: 0 0 1rem;
+}
+
+.subline {
+  font-family: system-ui, -apple-system, sans-serif;
+  color: #4A5868;
+  margin: 0 0 2rem;
+}
+
+.link {
+  /* Same darkened brand gold as `.eyebrow`, and the same reason. */
+  color: #8A6220;
+  text-decoration: underline;
+  /*
+    The only control on the page, and it measured 92x21px — under the 24px
+    minimum for a fingertip. Inline-block with padding gives it a real target
+    without moving it on the page.
+  */
+  display: inline-block;
+  padding: 0.25rem 0.125rem;
+  min-height: 1.5rem;
+}

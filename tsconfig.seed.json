@@ -1,0 +1,11 @@
+{
+  "//": "tsconfig used only by the `tsx` content-seed CLIs (npm run db:seed-*). It maps the Next-only `server-only`/`client-only` markers to a no-op stub so server modules (document service, site config) can be imported outside Next. Not used by the app build or type-check.",
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"],
+      "server-only": ["./src/cms/db/seeds/stubs/server-only.ts"],
+      "client-only": ["./src/cms/db/seeds/stubs/server-only.ts"]
+    }
+  }
+}

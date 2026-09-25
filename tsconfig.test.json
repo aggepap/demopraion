@@ -1,0 +1,17 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    // The studio imports with explicit `.ts` extensions, as its own config allows.
+    "allowImportingTsExtensions": true,
+    "paths": {
+      "@/*": ["./src/*"],
+      "server-only": ["./test/setup/server-only.ts"]
+    }
+  },
+  // The studio is outside `src` and its runner decides whether a run may be reported
+  // as clean — the one piece of tooling that needs the same scrutiny as the product.
+  // `.tsx` as well: `Window.gtag` is declared ambiently in a component, so a config
+  // that only listed `.ts` reported two errors in `gtag.ts` that do not exist in the
+  // app build. This check is only useful if it can be run clean.
+  "include": ["test/**/*.ts", "test/**/*.tsx", "src/**/*.ts", "src/**/*.tsx"]
+}

@@ -1,0 +1,44 @@
+{
+  "generatedBy": "new-site skill",
+  "skillVersion": 2,
+  "baseBranch": "CMS",
+  "baseCommit": "251064c123ad257ff7083b5cd1ac27fb81728077",
+  "baseDirty": true,
+  "date": "2026-09-25T16:10:27.352Z",
+  "siteType": "ecommerce",
+  "answers": {
+    "siteType": "ecommerce",
+    "name": "Demo Site",
+    "legalName": "Demo Site",
+    "slug": "demo-site",
+    "domain": "demo-site.gr",
+    "tagline": "",
+    "email": "info@demo-site.gr",
+    "phone": "",
+    "address": {
+      "street": "",
+      "city": "",
+      "postcode": "",
+      "country": "GR"
+    },
+    "socials": {},
+    "locales": [
+      "el",
+      "en"
+    ],
+    "defaultLocale": "el",
+    "newsletter": true,
+    "content": {
+      "articles": true,
+      "answers": true,
+      "scenarios": true
+    },
+    "ecommerce": {
+      "currency": "EUR",
+      "paymentProvider": "manual"
+    },
+    "booking": null,
+    "targetDir": "/home/aggepap/Projects/demo-site",
+    "setupDatabase": false
+  }
+}

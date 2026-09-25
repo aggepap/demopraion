@@ -1,0 +1,181 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1784408084440,
+      "tag": "0000_init",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1784414514230,
+      "tag": "0001_add_document_modified_at",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1784454515378,
+      "tag": "0002_remarkable_vindicator",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1784462352569,
+      "tag": "0003_wealthy_vanisher",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1785146289629,
+      "tag": "0004_clever_viper",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "5",
+      "when": 1785239674560,
+      "tag": "0005_tough_galactus",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "5",
+      "when": 1785871339240,
+      "tag": "0006_bumpy_night_nurse",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "5",
+      "when": 1785874180285,
+      "tag": "0007_tan_landau",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "5",
+      "when": 1786463972334,
+      "tag": "0008_low_nebula",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "5",
+      "when": 1786470490037,
+      "tag": "0009_free_gideon",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "5",
+      "when": 1786530128053,
+      "tag": "0010_thick_warstar",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "5",
+      "when": 1786549893394,
+      "tag": "0011_sparkling_vanisher",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "5",
+      "when": 1786978783725,
+      "tag": "0012_cloudy_mentor",
+      "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "5",
+      "when": 1787432680314,
+      "tag": "0013_next_cerebro",
+      "breakpoints": true
+    },
+    {
+      "idx": 14,
+      "version": "5",
+      "when": 1787772268841,
+      "tag": "0014_massive_black_bolt",
+      "breakpoints": true
+    },
+    {
+      "idx": 15,
+      "version": "5",
+      "when": 1787832729740,
+      "tag": "0015_groovy_taskmaster",
+      "breakpoints": true
+    },
+    {
+      "idx": 16,
+      "version": "5",
+      "when": 1789488313705,
+      "tag": "0016_dry_dakota_north",
+      "breakpoints": true
+    },
+    {
+      "idx": 17,
+      "version": "5",
+      "when": 1789665982528,
+      "tag": "0017_white_marvel_zombies",
+      "breakpoints": true
+    },
+    {
+      "idx": 18,
+      "version": "5",
+      "when": 1789668803424,
+      "tag": "0018_lowly_martin_li",
+      "breakpoints": true
+    },
+    {
+      "idx": 19,
+      "version": "5",
+      "when": 1789670584392,
+      "tag": "0019_tiny_firestar",
+      "breakpoints": true
+    },
+    {
+      "idx": 20,
+      "version": "5",
+      "when": 1789671977208,
+      "tag": "0020_puzzling_genesis",
+      "breakpoints": true
+    },
+    {
+      "idx": 21,
+      "version": "5",
+      "when": 1789672791283,
+      "tag": "0021_handy_paper_doll",
+      "breakpoints": true
+    },
+    {
+      "idx": 22,
+      "version": "5",
+      "when": 1789673254548,
+      "tag": "0022_white_lord_tyger",
+      "breakpoints": true
+    },
+    {
+      "idx": 23,
+      "version": "5",
+      "when": 1790071863203,
+      "tag": "0023_lying_namor",
+      "breakpoints": true
+    },
+    {
+      "idx": 24,
+      "version": "5",
+      "when": 1790242961445,
+      "tag": "0024_slow_dormammu",
+      "breakpoints": true
+    }
+  ]
+}

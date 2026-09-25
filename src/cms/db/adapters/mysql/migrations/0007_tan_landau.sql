@@ -1,0 +1,1 @@
+ALTER TABLE `orders` ADD `version` int DEFAULT 1 NOT NULL;

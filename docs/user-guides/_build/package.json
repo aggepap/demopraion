@@ -1,0 +1,8 @@
+{
+  "name": "cms-user-guides-build",
+  "private": true,
+  "type": "module",
+  "description": "Builds the Greek end-user PDF guides from ../src/*.md",
+  "scripts": { "build": "node build.mjs" },
+  "dependencies": { "marked": "^14.1.4", "pdfjs-dist": "^4.10.38" }
+}
