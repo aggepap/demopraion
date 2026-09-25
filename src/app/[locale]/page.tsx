@@ -2,7 +2,9 @@ import type { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 
 import { isModuleEnabled } from '@/cms/core';
+import { getBookingCurrency, listBookings } from '@/cms/modules/booking';
 import { filterByVisibility, listCategories, listProducts } from '@/cms/modules/commerce';
+import { BookingCard } from '@/components/booking/BookingCard';
 import { ProductCard } from '@/components/shop/ProductCard';
 import { HomeNewsletter } from '@/components/site/HomeNewsletter';
 import { ContactCta, HomeHero, LatestContent } from '@/components/site/HomeSections';
@@ -14,8 +16,9 @@ import config from '@/site.config';
 
 /**
  * Home: hero (CMS page `home`), categories and featured products while the
- * commerce module is on, latest content, contact CTA. Every block has an empty
- * state, so the page is complete before anything is published.
+ * commerce module is on, bookable stays while the booking module is on, latest
+ * content, contact CTA. Every block has an empty state, so the page is complete
+ * before anything is published.
  */
 export const dynamic = 'force-dynamic';
 
@@ -32,9 +35,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 export default async function HomePage({ params }: PageProps) {
   const { locale } = await params;
   setRequestLocale(locale);
-  const [t, commerceOn] = await Promise.all([
+  const [t, bookingT, commerceOn, bookingOn] = await Promise.all([
     getTranslations({ locale, namespace: 'home' }),
+    getTranslations({ locale, namespace: 'booking' }),
     isModuleEnabled(config, 'commerce'),
+    isModuleEnabled(config, 'booking'),
   ]);
 
   let categories: Awaited<ReturnType<typeof listCategories>> = [];
@@ -45,9 +50,21 @@ export default async function HomePage({ params }: PageProps) {
   // Same visibility rule as the shop's browse view: hidden products stay hidden.
   const featured = filterByVisibility(products, 'catalog').slice(0, 8);
 
+  let stays: Awaited<ReturnType<typeof listBookings>> = [];
+  let currency = '';
+  if (bookingOn) {
+    [stays, currency] = await Promise.all([listBookings(locale), getBookingCurrency()]);
+  }
+  const featuredStays = stays.slice(0, 6);
+  const heroCta = commerceOn
+    ? { href: '/shop', label: t('shopCta') }
+    : bookingOn
+      ? { href: '/booking', label: t('bookingCta') }
+      : undefined;
+
   return (
     <>
-      <HomeHero locale={locale} cta={commerceOn ? { href: '/shop', label: t('shopCta') } : undefined} />
+      <HomeHero locale={locale} cta={heroCta} />
 
       {commerceOn ? (
         <section className="max-w-7xl mx-auto px-6 py-20">
@@ -87,6 +104,39 @@ export default async function HomePage({ params }: PageProps) {
                 <ProductCard key={product.slug} product={product} locale={locale} />
               ))}
             </ul>
+          )}
+        </section>
+      ) : null}
+
+      {bookingOn ? (
+        <section className="max-w-7xl mx-auto px-6 pb-20">
+          <div className="flex items-baseline justify-between gap-4">
+            <h2 className="font-display text-2xl font-semibold tracking-tight text-midnight-navy">{t('bookingTitle')}</h2>
+            <Link href="/booking" className="text-sm font-medium text-warm-gold-deep hover:underline underline-offset-4">
+              {t('bookingCta')}
+            </Link>
+          </div>
+          {featuredStays.length === 0 ? (
+            <p className="mt-8 rounded-sm border border-border-soft bg-bone-cream p-8 text-center text-text-muted">
+              {t('bookingEmpty')}
+            </p>
+          ) : (
+            <div className="mt-8 grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
+              {featuredStays.map((item) => (
+                <BookingCard
+                  key={item.slug}
+                  item={item}
+                  currency={currency}
+                  locale={locale}
+                  labels={{
+                    fromPrice: (price) => bookingT('fromPrice', { price }),
+                    fromPriceNight: (price) => bookingT('fromPriceNight', { price }),
+                    onRequest: bookingT('onRequest'),
+                    viewDetails: bookingT('viewDetails'),
+                  }}
+                />
+              ))}
+            </div>
           )}
         </section>
       ) : null}

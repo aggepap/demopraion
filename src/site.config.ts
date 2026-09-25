@@ -237,7 +237,7 @@ const config = defineConfig({
   productionOrigin: brand.url,
   modules: {
     commerce: true,
-    booking: false,
+    booking: true,
     forms: true,
     seo: true,
     newsletter: true,
@@ -283,8 +283,8 @@ const config = defineConfig({
     }),
     bookingTermCollection({
       key: 'vessel_type',
-      label: 'Type',
-      labelPlural: 'Types',
+      label: 'Property type',
+      labelPlural: 'Property types',
       icon: 'tag',
     }),
     bookingTermCollection({

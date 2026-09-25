@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 
 import { getPublishedDocument, listPublishedByRelation, listPublishedDocuments } from '@/cms/core';
+import { AdminEditTarget } from '@/components/admin-bar/AdminEditTarget';
 import { ContentCard } from '@/components/site/ContentCard';
 import { ContentToolbar } from '@/components/site/ContentToolbar';
 import { PageIntro } from '@/components/site/PageIntro';
@@ -74,6 +75,8 @@ export default async function ArticleIndexPage({ params, searchParams }: PagePro
   // A category slug that names nothing live filters nothing, rather than
   // emptying the page over a stale link.
   const active = query.category ? (categories.find((c) => c.slug === query.category) ?? null) : null;
+  // Filtered by a category, the page shows that category: the admin bar edits it.
+  const activeDoc = active ? termDocs.find((doc) => doc.id === active.id) : undefined;
 
   // Filtering by category is a relation query the database answers in one go;
   // doing it in memory would mean loading every entry's categories first.
@@ -90,6 +93,7 @@ export default async function ArticleIndexPage({ params, searchParams }: PagePro
 
   return (
     <section className="max-w-7xl mx-auto px-6 pt-20 pb-24">
+      {activeDoc ? <AdminEditTarget doc={activeDoc} /> : null}
       <PageIntro title={t('title')} />
 
       <ContentToolbar

@@ -19,9 +19,9 @@ test('the site is named and addressed from the brand file', () => {
   assert.equal(config.storagePrefix, STORAGE_PREFIX);
 });
 
-test('module defaults match the site type (ecommerce)', () => {
+test('module defaults match the site type (ecommerce + stay booking)', () => {
   assert.equal(config.modules.commerce, true);
-  assert.equal(config.modules.booking, false);
+  assert.equal(config.modules.booking, true);
   assert.equal(config.modules.newsletter, true);
   // The Product Manager bridge grants write access to every page: opt-in only.
   assert.equal(config.modules.pm, false);
